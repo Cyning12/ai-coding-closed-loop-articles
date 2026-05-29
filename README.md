@@ -45,6 +45,8 @@ rsync -a ai_coding_governance/narrative/assets/ ai-coding-closed-loop-articles/a
 
 详见 [`SYNC_CHECKLIST.md`](./SYNC_CHECKLIST.md)。
 
+**Mermaid → PNG（生成最终稿必跑）**：`node scripts/publish-final.mjs`（见 [`mermaid-image-map.json`](./mermaid-image-map.json)、[`images/README.md`](./images/README.md)）；私仓 Skill `publish-workflow-zh.md`。
+
 ---
 
 ## 许可

@@ -7,6 +7,7 @@
 - [ ] 卷一元信息表：去掉 **续稿**、**续卷指引**、**发前测评** 行
 - [ ] OUTLINE 表：去掉 **续稿** 链到私仓 draft 的行（可改为一行「续稿在私有治理仓」）
 - [ ] 文内链：确认无 `reviews/`、`GUIDE_`、私仓绝对路径
-- [ ] 生成/更新 `assets/PUBLISH_卷一_公众平台粘贴版_v0.1.10_zh.md`（无内部链、无修订记录）
+- [ ] 生成/更新 `assets/PUBLISH_*`（无内部链、无修订记录）
+- [ ] **`node scripts/publish-final.mjs`**（导出 `images/*.png` + 注入 Mermaid 配图提示；新图先改 `mermaid-image-map.json`）
 - [ ] 掘金等平台：用 `assets/PUBLISH_*` 粘贴，或再删 HTML 注释（粘贴版已不含）
 - [ ] `git commit` + `git push` 本仓
