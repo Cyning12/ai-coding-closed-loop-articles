@@ -7,6 +7,7 @@
 | --- | --- |
 | **远程** | [`git@github.com:Cyning12/ai-coding-closed-loop-articles.git`](https://github.com/Cyning12/ai-coding-closed-loop-articles) |
 | **本地路径** | 聚合根 `Projects/` 内与 `ai_coding_governance/` **同级** |
+| **系列版本** | **[v1.0.0](SERIES_VERSION.md)**（卷一 + 卷二已 release） |
 | **GitHub 字段** | [`GITHUB_REPO.md`](./GITHUB_REPO.md) |
 
 ---
