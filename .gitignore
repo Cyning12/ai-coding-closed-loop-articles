@@ -3,3 +3,5 @@
 .idea/
 .vscode/
 .mermaid-export-tmp/
+platform/tencent-config.local.json
+platform/exports/

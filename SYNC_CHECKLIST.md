@@ -8,6 +8,7 @@
 - [ ] OUTLINE 表：去掉 **续稿** 链到私仓 draft 的行（可改为一行「续稿在私有治理仓」）
 - [ ] 文内链：确认无 `reviews/`、`GUIDE_`、私仓绝对路径
 - [ ] 生成/更新 `assets/PUBLISH_*`（无内部链、无修订记录）
-- [ ] **`node scripts/publish-final.mjs`**（导出 `images/*.png` + 注入 Mermaid 配图提示；新图先改 `mermaid-image-map.json`）
+- [ ] **`node scripts/publish-final.mjs`**（导出 `images/*.png`；新图先改 `mermaid-image-map.json`）
+- [ ] **`node scripts/decorate-publish-headings.mjs assets/PUBLISH_*`**（章节引用块加粗；顺带删配图提醒）
 - [ ] 掘金等平台：用 `assets/PUBLISH_*` 粘贴，或再删 HTML 注释（粘贴版已不含）
 - [ ] `git commit` + `git push` 本仓

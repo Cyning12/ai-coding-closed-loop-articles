@@ -54,7 +54,6 @@ flowchart LR
 
 
 
-> 掘金等若 Mermaid 异常，可用配图：`images/多模块API.png`。
 
 ### 8.1 仓库里的技术图谱：先认「有哪些文件」
 
@@ -323,7 +322,6 @@ flowchart LR
 
 
 
-> 掘金等若 Mermaid 异常，可用配图：`images/读图决策.png`。
 
 **怎么读这张图：**
 

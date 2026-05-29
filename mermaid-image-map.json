@@ -1,5 +1,6 @@
 {
-  "version": 1,
+  "version": 2,
+  "note": "仅导出 PNG；正文不插入「Mermaid 异常配图」提醒（见 strip-mermaid-hints.mjs）",
   "diagrams": [
     {
       "id": "多模块API",
@@ -8,13 +9,7 @@
       "exportFrom": {
         "file": "assets/PUBLISH_卷一_公众平台粘贴版_v0.1.10_zh.md",
         "index": 0
-      },
-      "inject": [
-        { "file": "assets/PUBLISH_卷一_公众平台粘贴版_v0.1.10_zh.md", "index": 0 },
-        { "file": "assets/PUBLISH_卷二_公众平台粘贴版_v0.8.2_zh.md", "index": 0 },
-        { "file": "ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md", "index": 0 },
-        { "file": "ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v0.8.2_zh.md", "index": 0 }
-      ]
+      }
     },
     {
       "id": "阶段骨架",
@@ -23,11 +18,7 @@
       "exportFrom": {
         "file": "assets/PUBLISH_卷一_公众平台粘贴版_v0.1.10_zh.md",
         "index": 1
-      },
-      "inject": [
-        { "file": "assets/PUBLISH_卷一_公众平台粘贴版_v0.1.10_zh.md", "index": 1 },
-        { "file": "ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md", "index": 1 }
-      ]
+      }
     },
     {
       "id": "总结",
@@ -36,11 +27,7 @@
       "exportFrom": {
         "file": "assets/PUBLISH_卷一_公众平台粘贴版_v0.1.10_zh.md",
         "index": 2
-      },
-      "inject": [
-        { "file": "assets/PUBLISH_卷一_公众平台粘贴版_v0.1.10_zh.md", "index": 2 },
-        { "file": "ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md", "index": 2 }
-      ]
+      }
     },
     {
       "id": "读图决策",
@@ -49,11 +36,7 @@
       "exportFrom": {
         "file": "assets/PUBLISH_卷二_公众平台粘贴版_v0.8.2_zh.md",
         "index": 1
-      },
-      "inject": [
-        { "file": "assets/PUBLISH_卷二_公众平台粘贴版_v0.8.2_zh.md", "index": 1 },
-        { "file": "ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v0.8.2_zh.md", "index": 1 }
-      ]
+      }
     }
   ]
 }

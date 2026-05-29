@@ -19,4 +19,4 @@ node scripts/publish-final.mjs
 
 **新增图**：编辑 `mermaid-image-map.json` 后执行上式。Skill 说明见私仓 `ai_coding_governance/.cursor/skills/public-narrative-zh/publish-workflow-zh.md`。
 
-掘金等平台 Mermaid 异常时，正文已含 `../images/xxx.png`（粘贴版）或 `images/xxx.png`（仓库根全文）提示。
+正文 **不写**「Mermaid 异常请换图」提醒；PNG 供维护者或平台手插图。粘贴版章节层次见 `decorate-publish-headings.mjs`。
