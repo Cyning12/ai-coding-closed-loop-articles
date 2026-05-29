@@ -327,6 +327,10 @@ AI Coding 的竞争力，越来越多来自 **「上下文工程 + 工程纪律�
 
 ---
 
+*许可：CC BY 4.0 · 署名可转载与改编 · 系列文稿：[ai-coding-closed-loop-articles](https://github.com/Cyning12/ai-coding-closed-loop-articles)*
+
+---
+
 ## 修订记录
 
 | 版本 | 日期 | 说明 |
