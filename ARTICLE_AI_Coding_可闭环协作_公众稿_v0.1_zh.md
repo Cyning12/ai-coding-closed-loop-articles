@@ -320,8 +320,8 @@ flowchart TB
 **读图要点**：图谱给 **空间结构**（含子图，省上下文）；协作流程给 **时间与责任**（任务单 + CI 闸）；二者在「可闭环交付」汇合，最终以 **机器验收 + 人签收** 落锤。可选经验沉淀反哺下一轮子图阅读，**不替代** 图谱与 Harness。
 
 <!-- 可选增强插图：生成 PNG 后取消下行注释并删上方 Mermaid（二选一）
-![图谱与协作流程叠放](assets/figure_vol1_stack_map_and_flow_zh.png)
-提示词见 [assets/PROMPT_figure_卷一_图谱Harness叠放全景_v0.1.7_zh.md](assets/PROMPT_figure_卷一_图谱Harness叠放全景_v0.1.7_zh.md)
+![图谱与协作流程叠放](images/总结.png)
+提示词见 [prompts/figures/PROMPT_figure_卷一_图谱Harness叠放全景_v0.1.7_zh.md](prompts/figures/PROMPT_figure_卷一_图谱Harness叠放全景_v0.1.7_zh.md)
 -->
 
 AI Coding 的竞争力，越来越多来自 **「上下文工程 + 工程纪律」**，而不是多背几条 Prompt。  

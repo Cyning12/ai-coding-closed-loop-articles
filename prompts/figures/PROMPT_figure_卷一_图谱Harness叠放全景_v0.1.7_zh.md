@@ -32,8 +32,8 @@
 
 ## 落盘建议
 
-- 文件名：`figure_vol1_stack_map_and_flow_zh.png`
-- 正文占位：`../ARTICLE_…_v0.1_zh.md` §7 前 `![图谱与协作流程叠放](assets/figure_vol1_stack_map_and_flow_zh.png)`
+- 文件名：建议 `images/总结.png`（与 Mermaid 导出同题）或自定 PNG 名
+- 正文占位：仓库根 `ARTICLE_…_v0.1_zh.md` §7 前 `![图谱与协作流程叠放](images/….png)`
 
 ---
 
