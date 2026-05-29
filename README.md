@@ -16,10 +16,12 @@
 | 卷 | 文件 | 状态 |
 | --- | --- | --- |
 | **总目录** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1_zh.md) | 活文档 |
-| **卷一** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md) | **release**（当前 v0.1.11） |
+| **卷一** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md) | **release**（v0.1.11） |
+| **卷二** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v0.8.2_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v0.8.2_zh.md) | **release**（v0.8.2） |
 | **卷一 · 粘贴版** | [`assets/PUBLISH_卷一_公众平台粘贴版_v0.1.10_zh.md`](./assets/PUBLISH_卷一_公众平台粘贴版_v0.1.10_zh.md) | 掘金 / 公众号一键复制 |
+| **卷二 · 粘贴版** | [`assets/PUBLISH_卷二_公众平台粘贴版_v0.8.2_zh.md`](./assets/PUBLISH_卷二_公众平台粘贴版_v0.8.2_zh.md) | 掘金 / 公众号一键复制 |
 
-**建议阅读顺序**：OUTLINE → 卷一全文。文内 Mermaid 在 GitHub / 掘金 Markdown 下可直接渲染。
+**建议阅读顺序**：OUTLINE → 卷一 → 卷二。文内 Mermaid 在 GitHub / 掘金 Markdown 下可直接渲染。
 
 ---
 

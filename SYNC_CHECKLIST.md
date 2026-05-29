@@ -2,7 +2,7 @@
 
 > 源：`../ai_coding_governance/narrative/` · 目标：本仓库根目录。
 
-- [ ] 复制 `ARTICLE_…_v0.1_zh.md`、`ARTICLE_…_OUTLINE_v1_zh.md`、`assets/`（若有更新）
+- [ ] 复制 `ARTICLE_…_v0.1_zh.md`、`ARTICLE_…_vol2_v0.8.2_zh.md`、`ARTICLE_…_OUTLINE_v1_zh.md`、`assets/PUBLISH_*`（若有更新）
 - [ ] **删除或勿复制** `draft_*`、`reviews/`、`GUIDE_*`、`技术叙事素材_*`
 - [ ] 卷一元信息表：去掉 **续稿**、**续卷指引**、**发前测评** 行
 - [ ] OUTLINE 表：去掉 **续稿** 链到私仓 draft 的行（可改为一行「续稿在私有治理仓」）
