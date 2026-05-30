@@ -37,6 +37,69 @@
         "file": "assets/PUBLISH_卷二_公众平台粘贴版_v0.8.2_zh.md",
         "index": 1
       }
+    },
+    {
+      "id": "可追责三问",
+      "width": 1600,
+      "sections": ["卷三 §12.8"],
+      "exportFrom": {
+        "file": "assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md",
+        "index": 0
+      }
+    },
+    {
+      "id": "可追责包",
+      "width": 1400,
+      "sections": ["卷三 §12.9"],
+      "exportFrom": {
+        "file": "assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md",
+        "index": 1
+      }
+    },
+    {
+      "id": "SDD阶段流",
+      "width": 1800,
+      "sections": ["卷三 §13.2"],
+      "exportFrom": {
+        "file": "assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md",
+        "index": 2
+      }
+    },
+    {
+      "id": "关账温层",
+      "width": 1400,
+      "sections": ["卷三 §13.7"],
+      "exportFrom": {
+        "file": "assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md",
+        "index": 3
+      }
+    },
+    {
+      "id": "一任务一PR",
+      "width": 1200,
+      "sections": ["卷三 §14.7"],
+      "exportFrom": {
+        "file": "assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md",
+        "index": 4
+      }
+    },
+    {
+      "id": "冷温热层",
+      "width": 1400,
+      "sections": ["卷三 §14.8"],
+      "exportFrom": {
+        "file": "assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md",
+        "index": 5
+      }
+    },
+    {
+      "id": "卷三结语",
+      "width": 1400,
+      "sections": ["卷三 §16"],
+      "exportFrom": {
+        "file": "assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md",
+        "index": 6
+      }
     }
   ]
 }
