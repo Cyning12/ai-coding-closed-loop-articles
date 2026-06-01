@@ -1,6 +1,6 @@
 > **2026-06-01** · 系列《AI 编程可闭环协作》卷四 · release **v1.0.1** · 闭环交付与经验沉淀——从 SPEC 到关账摘要
 > **系列文稿（Markdown）**：[github.com/Cyning12/ai-coding-closed-loop-articles](https://github.com/Cyning12/ai-coding-closed-loop-articles)
-> **阅读顺序**：建议先读[卷一](https://cloud.tencent.com/developer/article/2675471)、[卷二](https://cloud.tencent.com/developer/article/2676250)、[卷三（GitHub 定稿）](https://github.com/Cyning12/ai-coding-closed-loop-articles/blob/main/ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md)，再读本篇。
+> **阅读顺序**：[卷一](https://cloud.tencent.com/developer/article/2675471) · [卷二](https://cloud.tencent.com/developer/article/2676250) · [卷三](https://cloud.tencent.com/developer/article/2678669) · **本篇（卷四）** · 卷五（连载筹备）
 
 ---
 

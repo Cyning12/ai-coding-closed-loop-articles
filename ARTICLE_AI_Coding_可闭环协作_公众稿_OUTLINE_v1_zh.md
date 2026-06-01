@@ -3,9 +3,19 @@
 | 项 | 内容 |
 | --- | --- |
 | **用途** | 系列文章的**总目录**；正文随版本扩充，本文件只维护**篇章树 + 状态** |
-| **系列版本** | **[v1.0.0](SERIES_VERSION.md)**（卷一 + 卷二已 release · 2026-05-29） |
-| **当前发布** | 卷一 [`v0.1.11`](./ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md) · 卷二 [`v0.8.2`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v0.8.2_zh.md) · 卷三 [`v1.4.0`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md) · 卷四 [`v1.0.0`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.0.0_zh.md) |
+| **系列版本** | **[v1.3.0](SERIES_VERSION.md)**（卷一～卷四已 release · 2026-06-01） |
+| **当前发布** | 卷一 [`v1.0.0`](./ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md) · 卷二 [`v0.8.2`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v0.8.2_zh.md) · 卷三 [`v1.4.0`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md) · 卷四 [`v1.0.1`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.0.0_zh.md) |
 | **续稿 / 内部指引** | 作者私有治理仓（不公开） |
+
+### 腾讯云开发者社区（已发表）
+
+| 卷 | 链接 |
+| --- | --- |
+| 卷一 | [2675471](https://cloud.tencent.com/developer/article/2675471) |
+| 卷二 | [2676250](https://cloud.tencent.com/developer/article/2676250) |
+| 卷三 | [2678669](https://cloud.tencent.com/developer/article/2678669) |
+| 卷四 | [2680278](https://cloud.tencent.com/developer/article/2680278) |
+| 卷五 | 连载筹备 |
 
 **状态图例**：✅ 已写入发布版 · 📝 草稿中 · ⏳ 规划（待写）
 
@@ -104,7 +114,7 @@ Markdown 正文 **H1** 与对外标题一致；**文件名**仍用 `v0.x` / 卷�
 ## 卷一 · 总论
 
 **对外标题**：AI 编程可闭环协作 · 卷一：怎样才算「做完」——给 Agent 结构，给团队过程  
-**文件**：`ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md` · **版本 v0.1**
+**文件**：`ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md` · **版本 v1.0.0** · 腾讯云 [2675471](https://cloud.tencent.com/developer/article/2675471)
 
 | 节 | 标题 | 状态 |
 | --- | --- | --- |
@@ -126,7 +136,7 @@ Markdown 正文 **H1** 与对外标题一致；**文件名**仍用 `v0.x` / 卷�
 ## 卷二 · 技术图谱
 
 **对外标题**：AI 编程可闭环协作 · 卷二：技术图谱——让 Agent 先看地图再动手  
-**文件**：`ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v0.8.2_zh.md` · **版本 v0.8.2**
+**文件**：`ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v0.8.2_zh.md` · **版本 v0.8.2** · 腾讯云 [2676250](https://cloud.tencent.com/developer/article/2676250)
 
 | 节 | 标题 | 状态 |
 | --- | --- | --- |
@@ -150,7 +160,7 @@ Markdown 正文 **H1** 与对外标题一致；**文件名**仍用 `v0.x` / 卷�
 ## 卷三 · Harness 与 SDD 流程
 
 **对外标题**：AI 编程可闭环协作 · 卷三：Harness 与 SDD——让改动可签收、可合并  
-**文件**：`ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md` · **版本 v1.4.0** · 粘贴版 [`assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md`](./assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md)
+**文件**：`ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md` · **版本 v1.4.0** · 粘贴版 [`assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md`](./assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md) · 腾讯云 [2678669](https://cloud.tencent.com/developer/article/2678669)
 
 | 节 | 标题 | 状态 |
 | --- | --- | --- |
@@ -166,7 +176,7 @@ Markdown 正文 **H1** 与对外标题一致；**文件名**仍用 `v0.x` / 卷�
 ## 卷四 · 闭环交付与经验沉淀
 
 **对外标题**：AI 编程可闭环协作 · 卷四：闭环交付与经验沉淀——从 SPEC 到关账摘要  
-**文件**：`ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.0.0_zh.md` · **版本 v1.0.0**
+**文件**：`ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.0.0_zh.md` · **版本 v1.0.1** · 粘贴版 [`assets/PUBLISH_卷四_公众平台粘贴版_v1.0.1_zh.md`](./assets/PUBLISH_卷四_公众平台粘贴版_v1.0.1_zh.md) · 腾讯云 [2680278](https://cloud.tencent.com/developer/article/2680278) · **已发表 2026-06-01**
 
 > 卷四写完整一轮专题闭环；存量仓案例见卷五。节号 **§17–20**。
 
@@ -233,3 +243,4 @@ Markdown 正文 **H1** 与对外标题一致；**文件名**仍用 `v0.x` / 卷�
 | v1.6 | 2026-05-27 | 增补「存量与老项目」贯穿规划；卷二 8.4、卷三 13.1、卷五 §21 与案例/FAQ 定位 |
 | v1.7 | 2026-05-29 | 卷四 §14–15 链 Wiki 里程碑验收 · 公众稿扩充清单素材列 |
 | v1.8 | 2026-05-29 | 系列 **v1.0.0** · 节号 §11–26 对齐 · 附录附册说明 |
+| v1.9 | 2026-06-01 | 卷四腾讯云发表 [2680278](https://cloud.tencent.com/developer/article/2680278) · 系列 **v1.3.0** · 卷一 v1.0.0 |
