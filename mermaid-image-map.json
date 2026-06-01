@@ -100,6 +100,15 @@
         "file": "assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md",
         "index": 6
       }
+    },
+    {
+      "id": "专题交付流水线",
+      "width": 1800,
+      "sections": ["卷四 §17.3"],
+      "exportFrom": {
+        "file": "assets/PUBLISH_卷四_公众平台粘贴版_v1.0.0_zh.md",
+        "index": 0
+      }
     }
   ]
 }
