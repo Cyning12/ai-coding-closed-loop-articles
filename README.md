@@ -7,7 +7,7 @@
 | --- | --- |
 | **远程** | [`git@github.com:Cyning12/ai-coding-closed-loop-articles.git`](https://github.com/Cyning12/ai-coding-closed-loop-articles) |
 | **本地路径** | 聚合根 `Projects/` 内与 `ai_coding_governance/` **同级** |
-| **系列版本** | **[v1.2.0](SERIES_VERSION.md)**（卷一～卷四已 release） |
+| **系列版本** | **[v1.3.0](SERIES_VERSION.md)**（卷一 v1.0.0 读者评修订 · 卷四 v1.0.1） |
 | **GitHub 字段** | [`GITHUB_REPO.md`](./GITHUB_REPO.md) |
 
 ---
@@ -17,14 +17,14 @@
 | 卷 | 文件 | 状态 |
 | --- | --- | --- |
 | **总目录** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1_zh.md) | 活文档 |
-| **卷一** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md) | **release**（v0.1.11） |
+| **卷一** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md) | **release**（**v1.0.0** · 读者评修订） |
 | **卷二** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v0.8.2_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v0.8.2_zh.md) | **release**（v0.8.2） |
 | **卷三** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md) | **release**（v1.4.0） |
-| **卷四** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.0.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.0.0_zh.md) | **release**（v1.0.0） |
-| **卷一 · 粘贴版** | [`assets/PUBLISH_卷一_公众平台粘贴版_v0.1.10_zh.md`](./assets/PUBLISH_卷一_公众平台粘贴版_v0.1.10_zh.md) | 掘金 / 公众号一键复制 |
+| **卷四** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.0.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.0.0_zh.md) | **release**（**v1.0.1**） |
+| **卷一 · 粘贴版** | [`assets/PUBLISH_卷一_公众平台粘贴版_v1.0.0_zh.md`](./assets/PUBLISH_卷一_公众平台粘贴版_v1.0.0_zh.md) | 掘金 / 公众号一键复制 |
 | **卷二 · 粘贴版** | [`assets/PUBLISH_卷二_公众平台粘贴版_v0.8.2_zh.md`](./assets/PUBLISH_卷二_公众平台粘贴版_v0.8.2_zh.md) | 掘金 / 公众号一键复制 |
 | **卷三 · 粘贴版** | [`assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md`](./assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md) | 腾讯云 / 掘金 / 公众号 |
-| **卷四 · 粘贴版** | [`assets/PUBLISH_卷四_公众平台粘贴版_v1.0.0_zh.md`](./assets/PUBLISH_卷四_公众平台粘贴版_v1.0.0_zh.md) | 腾讯云 / 掘金 / 公众号 |
+| **卷四 · 粘贴版** | [`assets/PUBLISH_卷四_公众平台粘贴版_v1.0.1_zh.md`](./assets/PUBLISH_卷四_公众平台粘贴版_v1.0.1_zh.md) | 腾讯云 / 掘金 / 公众号 |
 | **配图提示词** | [`prompts/figures/`](./prompts/figures/) | 封面 / 可选信息图（**非正文**） |
 
 **建议阅读顺序**：OUTLINE → 卷一 → 卷二 → 卷三 → 卷四。文内 Mermaid 在 GitHub / 掘金 Markdown 下可直接渲染。
