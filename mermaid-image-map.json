@@ -1,6 +1,7 @@
 {
-  "version": 2,
-  "note": "仅导出 PNG；正文不插入「Mermaid 异常配图」提醒（见 strip-mermaid-hints.mjs）",
+  "version": 3,
+  "outputDir": "assets/figures",
+  "note": "PNG 输出到 assets/figures/；文件名 = 节位_slug + 简述 id（见 export-mermaid-images.mjs）",
   "diagrams": [
     {
       "id": "多模块API",
