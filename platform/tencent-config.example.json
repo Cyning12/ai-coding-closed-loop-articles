@@ -7,6 +7,9 @@
   "vol3_link_text": "卷三",
   "vol4_article_url": "https://cloud.tencent.com/developer/article/2680278",
   "vol4_link_text": "卷四",
+  "vol5_article_url": "https://cloud.tencent.com/developer/article/2681115",
+  "vol5_link_text": "卷五",
+  "vol1_edit_url": "https://cloud.tencent.com/developer/article/write-new/2675471",
   "series_github": "https://github.com/Cyning12/ai-coding-closed-loop-articles",
   "_note": "复制为 platform/tencent-config.local.json 使用；local 文件已 gitignore，勿提交 COS 签名 URL"
 }

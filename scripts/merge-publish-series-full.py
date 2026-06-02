@@ -11,16 +11,16 @@ ASSETS = ROOT / "assets"
 VOLUMES = [
     {
         "id": "卷一",
-        "file": "PUBLISH_卷一_公众平台粘贴版_v1.0.0_zh.md",
+        "file": "PUBLISH_卷一_公众平台粘贴版_v1.0.1_zh.md",
         "title": "怎样才算「做完」——给 Agent 结构，给团队过程",
         "release": "v1.0.1",
         "tencent": "https://cloud.tencent.com/developer/article/2675471",
     },
     {
         "id": "卷二",
-        "file": "PUBLISH_卷二_公众平台粘贴版_v0.8.2_zh.md",
+        "file": "PUBLISH_卷二_公众平台粘贴版_v1.0.0_zh.md",
         "title": "技术图谱——让 Agent 先看地图再动手",
-        "release": "v0.8.2",
+        "release": "v1.0.0",
         "tencent": "https://cloud.tencent.com/developer/article/2676250",
     },
     {
@@ -32,7 +32,7 @@ VOLUMES = [
     },
     {
         "id": "卷四",
-        "file": "PUBLISH_卷四_公众平台粘贴版_v1.0.1_zh.md",
+        "file": "PUBLISH_卷四_公众平台粘贴版_v1.1.0_zh.md",
         "title": "闭环交付与经验沉淀——从 SPEC 到跨轮回顾摘要",
         "release": "v1.1.0",
         "tencent": "https://cloud.tencent.com/developer/article/2680278",
@@ -42,7 +42,7 @@ VOLUMES = [
         "file": "PUBLISH_卷五_公众平台粘贴版_v1.0.0_zh.md",
         "title": "存量项目怎么落地——案例、误区与渐进路线",
         "release": "v1.0.1",
-        "tencent": "GitHub release（腾讯云待发）",
+        "tencent": "https://cloud.tencent.com/developer/article/2681115",
     },
 ]
 
@@ -140,7 +140,7 @@ def main() -> None:
 
 > **2026-06-02** · 系列合并 **v1.0.1** · 卷一～卷五定稿合并（**不替代** 单卷发表稿；含全书测评 P0/P1 修订）  
 > **系列文稿**：[github.com/Cyning12/ai-coding-closed-loop-articles](https://github.com/Cyning12/ai-coding-closed-loop-articles)  
-> **单卷发表**：卷一 [2675471](https://cloud.tencent.com/developer/article/2675471) · 卷二 [2676250](https://cloud.tencent.com/developer/article/2676250) · 卷三 [2678669](https://cloud.tencent.com/developer/article/2678669) · 卷四 [2680278](https://cloud.tencent.com/developer/article/2680278) · 卷五见仓内 `ARTICLE_*_vol5_v1.0.0_zh.md`
+> **单卷发表**：卷一 [2675471](https://cloud.tencent.com/developer/article/2675471) · 卷二 [2676250](https://cloud.tencent.com/developer/article/2676250) · 卷三 [2678669](https://cloud.tencent.com/developer/article/2678669) · 卷四 [2680278](https://cloud.tencent.com/developer/article/2680278) · 卷五 [2681115](https://cloud.tencent.com/developer/article/2681115)
 
 > **阅读建议**：全书约五篇连载之和；新项目从卷一 §6 起步，存量项目可直接跳卷五 §25 阶段 0（仍建议先 skim 卷一～三要点）。
 

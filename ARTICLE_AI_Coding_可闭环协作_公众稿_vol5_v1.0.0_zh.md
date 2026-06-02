@@ -1,8 +1,8 @@
 # AI 编程可闭环协作 · 卷五：存量项目怎么落地——案例、误区与渐进路线
 
-> **2026-06-02** · 系列 [ai-coding-closed-loop-articles](https://github.com/Cyning12/ai-coding-closed-loop-articles)  
-> [系列总目录](./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1_zh.md) · 上一卷：[卷四：闭环交付与经验沉淀](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.0.0_zh.md)（[腾讯云 2680278](https://cloud.tencent.com/developer/article/2680278)）  
-> 建议先读 [卷一](./ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md) · [卷二 技术图谱](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v0.8.2_zh.md) · [卷三 Harness](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md)
+> **2026-06-02** · 系列 [ai-coding-closed-loop-articles](https://github.com/Cyning12/ai-coding-closed-loop-articles) · 腾讯云 [已发表](https://cloud.tencent.com/developer/article/2681115)  
+> [系列总目录](./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md) · 上一卷：[卷四：闭环交付与经验沉淀](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.1.0_zh.md)（[2680278](https://cloud.tencent.com/developer/article/2680278)）  
+> 建议先读 [卷一](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol1_v1.0.1_zh.md) · [卷二 技术图谱](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v1.0.0_zh.md) · [卷三 Harness](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md)
 
 ---
 

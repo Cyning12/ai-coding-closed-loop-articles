@@ -4,7 +4,7 @@
 
 系列公众稿 **优先** 发布到 [腾讯云开发者社区](https://cloud.tencent.com/developer)。
 
-详规（Skill 蒸馏）：私仓 `ai_coding_governance/.cursor/skills/public-narrative-zh/platform-tencent-dev-zh.md`
+发帖流程：复制 `assets/PUBLISH_*` → 编辑器粘贴 → Mermaid 块换 COS 图（见下文）。
 
 ## 配置文件
 
