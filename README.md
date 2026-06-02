@@ -7,7 +7,7 @@
 | --- | --- |
 | **远程** | [`git@github.com:Cyning12/ai-coding-closed-loop-articles.git`](https://github.com/Cyning12/ai-coding-closed-loop-articles) |
 | **本地路径** | 聚合根 `Projects/` 内与 `ai_coding_governance/` **同级** |
-| **系列版本** | **[v1.3.0](SERIES_VERSION.md)**（卷一～卷四已 release · 腾讯云连载至卷四） |
+| **系列版本** | **[v1.4.0](SERIES_VERSION.md)**（卷一～卷五已 release · 腾讯云连载至卷四，卷五待发） |
 | **GitHub 字段** | [`GITHUB_REPO.md`](./GITHUB_REPO.md) |
 
 ---
@@ -21,13 +21,15 @@
 | **卷二** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v0.8.2_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v0.8.2_zh.md) | **release**（v0.8.2） | [已发](https://cloud.tencent.com/developer/article/2676250) |
 | **卷三** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md) | **release**（v1.4.0） | [已发](https://cloud.tencent.com/developer/article/2678669) |
 | **卷四** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.0.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.0.0_zh.md) | **release**（**v1.0.1** · 2026-06-01） | [已发](https://cloud.tencent.com/developer/article/2680278) |
+| **卷五** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_vol5_v1.0.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol5_v1.0.0_zh.md) | **release**（**v1.0.0** · 2026-06-02） | 待发 |
 | **卷一 · 粘贴版** | [`assets/PUBLISH_卷一_公众平台粘贴版_v1.0.0_zh.md`](./assets/PUBLISH_卷一_公众平台粘贴版_v1.0.0_zh.md) | 掘金 / 腾讯云 | 同上 |
 | **卷二 · 粘贴版** | [`assets/PUBLISH_卷二_公众平台粘贴版_v0.8.2_zh.md`](./assets/PUBLISH_卷二_公众平台粘贴版_v0.8.2_zh.md) | 掘金 / 腾讯云 | 同上 |
 | **卷三 · 粘贴版** | [`assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md`](./assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md) | 腾讯云 / 掘金 | 同上 |
 | **卷四 · 粘贴版** | [`assets/PUBLISH_卷四_公众平台粘贴版_v1.0.1_zh.md`](./assets/PUBLISH_卷四_公众平台粘贴版_v1.0.1_zh.md) | 腾讯云 / 掘金 | 同上 |
+| **卷五 · 粘贴版** | [`assets/PUBLISH_卷五_公众平台粘贴版_v1.0.0_zh.md`](./assets/PUBLISH_卷五_公众平台粘贴版_v1.0.0_zh.md) | 腾讯云 / 掘金 | 待发 |
 | **配图提示词** | [`prompts/figures/`](./prompts/figures/) | 封面 / 可选信息图（**非正文**） | — |
 
-**建议阅读顺序**：OUTLINE → [卷一](https://cloud.tencent.com/developer/article/2675471) → [卷二](https://cloud.tencent.com/developer/article/2676250) → [卷三](https://cloud.tencent.com/developer/article/2678669) → [卷四](https://cloud.tencent.com/developer/article/2680278) → 卷五（筹备）。GitHub 定稿见上表 `ARTICLE_*`。
+**建议阅读顺序**：OUTLINE → [卷一](https://cloud.tencent.com/developer/article/2675471) → [卷二](https://cloud.tencent.com/developer/article/2676250) → [卷三](https://cloud.tencent.com/developer/article/2678669) → [卷四](https://cloud.tencent.com/developer/article/2680278) → [卷五](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol5_v1.0.0_zh.md)（GitHub 已定稿，腾讯云待发）。GitHub 定稿见上表 `ARTICLE_*`。
 
 ---
 

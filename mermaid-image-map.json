@@ -135,6 +135,28 @@
         "file": "assets/PUBLISH_卷四_公众平台粘贴版_v1.0.1_zh.md",
         "index": 0
       }
+    },
+    {
+      "id": "双仓串行PR",
+      "width": 1600,
+      "sections": [
+        "卷五 §22.3"
+      ],
+      "exportFrom": {
+        "file": "assets/PUBLISH_卷五_公众平台粘贴版_v1.0.0_zh.md",
+        "index": 0
+      }
+    },
+    {
+      "id": "存量四阶段",
+      "width": 1800,
+      "sections": [
+        "卷五 §25.2"
+      ],
+      "exportFrom": {
+        "file": "assets/PUBLISH_卷五_公众平台粘贴版_v1.0.0_zh.md",
+        "index": 1
+      }
     }
   ]
 }
