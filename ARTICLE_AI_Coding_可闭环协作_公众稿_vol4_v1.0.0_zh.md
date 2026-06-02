@@ -1,6 +1,6 @@
 # AI 编程可闭环协作 · 卷四：闭环交付与经验沉淀——从 SPEC 到跨轮回顾摘要
 
-> **2026-06-01** · release **v1.0.1** · 系列 [ai-coding-closed-loop-articles](https://github.com/Cyning12/ai-coding-closed-loop-articles)
+> **2026-06-02** · release **v1.1.0**（2026-06-02 用语对齐修订）· 腾讯云 [已发表](https://cloud.tencent.com/developer/article/2680278) · 系列 [ai-coding-closed-loop-articles](https://github.com/Cyning12/ai-coding-closed-loop-articles)
 
 
 ## 目录

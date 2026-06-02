@@ -1,6 +1,6 @@
-> **2026-06-01** · 系列《AI 编程可闭环协作》卷一 · release **v1.0.0** · 侧重 AI Coding 工程协作与质量闭环（非 Prompt 技巧大全）
+> **2026-06-02** · 系列《AI 编程可闭环协作》卷一 · release **v1.0.1**（用语对齐）· 侧重 AI Coding 工程协作与质量闭环（非 Prompt 技巧大全）
 > **系列文稿（Markdown）**：[github.com/Cyning12/ai-coding-closed-loop-articles](https://github.com/Cyning12/ai-coding-closed-loop-articles)
-> **系列阅读**：[卷二：技术图谱——让 Agent 先看地图再动手](https://cloud.tencent.com/developer/article/2676250) · [卷三：Harness 与 SDD——让改动可签收、可合并](https://cloud.tencent.com/developer/article/2678669) · [卷四：闭环交付与经验沉淀——从 SPEC 到关账摘要](https://cloud.tencent.com/developer/article/2680278) · 卷五：存量项目与渐进路线（连载筹备）
+> **系列阅读**：[卷二：技术图谱——让 Agent 先看地图再动手](https://cloud.tencent.com/developer/article/2676250) · [卷三：Harness 与 SDD——让改动可签收、可合并](https://cloud.tencent.com/developer/article/2678669) · [卷四：闭环交付与经验沉淀——从 SPEC 到跨轮回顾摘要](https://cloud.tencent.com/developer/article/2680278) · [卷五：存量项目怎么落地](https://github.com/Cyning12/ai-coding-closed-loop-articles/blob/main/ARTICLE_AI_Coding_可闭环协作_公众稿_vol5_v1.0.0_zh.md)（GitHub 已定稿）
 
 ---
 
@@ -237,7 +237,7 @@ flowchart LR
 4. **跑通一轮**：需求 → 审核 → 实现 → 自检 → **CI 全绿** → 审查签收 → 合并。  
 5. **（可选）** 闭环后写一张经验卡片：同类需求下次少踩坑；可放在仓库 `docs/experience/` 下，或你的个人笔记里。
 
-> **提示**：实际执行中，你可能遇到 **图谱/契约检查 CI 变红**、**任务单被拒开工**、**独立复检打回** 等分支。本文先讲 **理想路径**；恢复策略与真实案例见 **卷三**（签收纪律）与 **卷四**（关账专题 · 含契约/锚点 CI 主失败分支）。
+> **提示**：实际执行中，你可能遇到 **图谱/契约检查 CI 变红**、**任务单被拒开工**、**独立复检打回** 等分支。本文先讲 **理想路径**；恢复策略与真实案例见 **卷三**（签收纪律）与 **卷四**（专题收尾 · 含契约/锚点 CI 主失败分支）。
 
 **任务单模板示例（可复制）**
 

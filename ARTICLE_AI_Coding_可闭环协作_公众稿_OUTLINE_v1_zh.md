@@ -4,7 +4,7 @@
 | --- | --- |
 | **用途** | 系列文章的**总目录**；正文随版本扩充，本文件只维护**篇章树 + 状态** |
 | **系列版本** | **[v1.4.0](SERIES_VERSION.md)**（卷一～卷五 GitHub release · 2026-06-02） |
-| **当前发布** | 卷一 [`v1.0.0`](./ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md) · 卷二 [`v0.8.2`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v0.8.2_zh.md) · 卷三 [`v1.4.0`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md) · 卷四 [`v1.0.1`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.0.0_zh.md) · 卷五 [`v1.0.0`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol5_v1.0.0_zh.md) |
+| **当前发布** | 卷一 [`v1.0.1`](./ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md) · 卷二 [`v0.8.2`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v0.8.2_zh.md) · 卷三 [`v1.4.0`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md) · 卷四 [`v1.1.0`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.0.0_zh.md) · 卷五 [`v1.0.0`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol5_v1.0.0_zh.md) |
 | **续稿 / 内部指引** | 作者私有治理仓（不公开） |
 
 ### 腾讯云开发者社区（已发表）

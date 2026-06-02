@@ -17,15 +17,15 @@
 | 卷 | 文件 | 状态 | 腾讯云 |
 | --- | --- | --- | --- |
 | **总目录** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1_zh.md) | 活文档 | — |
-| **卷一** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md) | **release**（**v1.0.0**） | [已发](https://cloud.tencent.com/developer/article/2675471) |
+| **卷一** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_v0.1_zh.md) | **release**（**v1.0.1** · 2026-06-02 用语对齐） | [已发](https://cloud.tencent.com/developer/article/2675471) |
 | **卷二** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v0.8.2_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v0.8.2_zh.md) | **release**（v0.8.2） | [已发](https://cloud.tencent.com/developer/article/2676250) |
 | **卷三** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md) | **release**（v1.4.0） | [已发](https://cloud.tencent.com/developer/article/2678669) |
-| **卷四** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.0.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.0.0_zh.md) | **release**（**v1.0.1** · 2026-06-01） | [已发](https://cloud.tencent.com/developer/article/2680278) |
+| **卷四** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.0.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.0.0_zh.md) | **release**（**v1.1.0** · 2026-06-02 用语对齐） | [已发](https://cloud.tencent.com/developer/article/2680278) |
 | **卷五** | [`ARTICLE_AI_Coding_可闭环协作_公众稿_vol5_v1.0.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol5_v1.0.0_zh.md) | **release**（**v1.0.0** · 2026-06-02） | 待发 |
-| **卷一 · 粘贴版** | [`assets/PUBLISH_卷一_公众平台粘贴版_v1.0.0_zh.md`](./assets/PUBLISH_卷一_公众平台粘贴版_v1.0.0_zh.md) | 掘金 / 腾讯云 | 同上 |
+| **卷一 · 粘贴版** | [`assets/PUBLISH_卷一_公众平台粘贴版_v1.0.0_zh.md`](./assets/PUBLISH_卷一_公众平台粘贴版_v1.0.0_zh.md) | 掘金 / 腾讯云 | 同上（**v1.0.1** 用语） |
 | **卷二 · 粘贴版** | [`assets/PUBLISH_卷二_公众平台粘贴版_v0.8.2_zh.md`](./assets/PUBLISH_卷二_公众平台粘贴版_v0.8.2_zh.md) | 掘金 / 腾讯云 | 同上 |
 | **卷三 · 粘贴版** | [`assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md`](./assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md) | 腾讯云 / 掘金 | 同上 |
-| **卷四 · 粘贴版** | [`assets/PUBLISH_卷四_公众平台粘贴版_v1.0.1_zh.md`](./assets/PUBLISH_卷四_公众平台粘贴版_v1.0.1_zh.md) | 腾讯云 / 掘金 | 同上 |
+| **卷四 · 粘贴版** | [`assets/PUBLISH_卷四_公众平台粘贴版_v1.0.1_zh.md`](./assets/PUBLISH_卷四_公众平台粘贴版_v1.0.1_zh.md) | 腾讯云 / 掘金 | 同上（**v1.1.0** 用语） |
 | **卷五 · 粘贴版** | [`assets/PUBLISH_卷五_公众平台粘贴版_v1.0.0_zh.md`](./assets/PUBLISH_卷五_公众平台粘贴版_v1.0.0_zh.md) | 腾讯云 / 掘金 | 待发 |
 | **配图提示词** | [`prompts/figures/`](./prompts/figures/) | 封面 / 可选信息图（**非正文**） | — |
 
