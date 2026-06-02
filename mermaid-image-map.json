@@ -157,6 +157,17 @@
         "file": "assets/PUBLISH_卷五_公众平台粘贴版_v1.0.0_zh.md",
         "index": 1
       }
+    },
+    {
+      "id": "冷温热协作记忆",
+      "width": 1400,
+      "sections": [
+        "卷五 §23.1"
+      ],
+      "exportFrom": {
+        "file": "assets/PUBLISH_卷五_公众平台粘贴版_v1.0.0_zh.md",
+        "index": 2
+      }
     }
   ]
 }

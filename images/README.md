@@ -8,5 +8,6 @@
 | `卷二封面.png` | 卷二文章头图 |
 | `卷三封面.png` | 卷三文章头图（[`prompts/figures/PROMPT_figure_卷三_文章封面_v1_zh.md`](../prompts/figures/PROMPT_figure_卷三_文章封面_v1_zh.md)） |
 | `卷四封面.png` | 卷四文章头图（[`prompts/figures/PROMPT_figure_卷四_文章封面_v1_zh.md`](../prompts/figures/PROMPT_figure_卷四_文章封面_v1_zh.md)） |
+| `卷五封面.png` | 卷五文章头图（[`prompts/figures/PROMPT_figure_卷五_文章封面_v1_zh.md`](../prompts/figures/PROMPT_figure_卷五_文章封面_v1_zh.md)） |
 
 流程图重导出：`node scripts/publish-final.mjs`（输出见 `mermaid-image-map.json` → `assets/figures/`）。
