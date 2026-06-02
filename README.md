@@ -27,6 +27,7 @@
 | **卷三 · 粘贴版** | [`assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md`](./assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md) | 腾讯云 / 掘金 | 同上 |
 | **卷四 · 粘贴版** | [`assets/PUBLISH_卷四_公众平台粘贴版_v1.0.1_zh.md`](./assets/PUBLISH_卷四_公众平台粘贴版_v1.0.1_zh.md) | 腾讯云 / 掘金 | 同上（**v1.1.0** 用语） |
 | **卷五 · 粘贴版** | [`assets/PUBLISH_卷五_公众平台粘贴版_v1.0.0_zh.md`](./assets/PUBLISH_卷五_公众平台粘贴版_v1.0.0_zh.md) | 腾讯云 / 掘金 | 待发 |
+| **全五卷合并** | [`assets/PUBLISH_系列全五卷合并_公众平台粘贴版_v1.0.1_zh.md`](./assets/PUBLISH_系列全五卷合并_公众平台粘贴版_v1.0.1_zh.md) | 电子书/全书测评（**v1.0.1** · P0/P1） | 仓内 |
 | **配图提示词** | [`prompts/figures/`](./prompts/figures/) | 封面 / 可选信息图（**非正文**） | — |
 
 **建议阅读顺序**：OUTLINE → [卷一](https://cloud.tencent.com/developer/article/2675471) → [卷二](https://cloud.tencent.com/developer/article/2676250) → [卷三](https://cloud.tencent.com/developer/article/2678669) → [卷四](https://cloud.tencent.com/developer/article/2680278) → [卷五](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol5_v1.0.0_zh.md)（GitHub 已定稿，腾讯云待发）。GitHub 定稿见上表 `ARTICLE_*`。
@@ -68,3 +69,4 @@ rsync -a ai_coding_governance/narrative/assets/ ai-coding-closed-loop-articles/a
 | 日期 | 说明 |
 | --- | --- |
 | 2026-05-27 | 初版：卷一 v0.1.9 + OUTLINE；与 `ai_coding_governance` 平级落盘 |
+| 2026-06-02 | 全五卷合并 **v1.0.1**（全书测评 P0/P1）；测评见私仓 `narrative/reviews/REVIEW_公众稿全五卷合并_v1.0.1_第三方Agent_20260602_zh.md` |

@@ -85,6 +85,7 @@ TDD、Code Review、CI 并没有过时；AI 加入后，缺的是 **面向 Agent
 
 **示例：多模块 API 一条主链路（左→右为请求方向；可另存为 `.md` 改模块名）**
 
+<!-- 图 1：2.1 技术图谱：让 Agent「先看地图再动手」 -->
 ```mermaid
 flowchart LR
   Client[客户端 / BFF] -->|用户问题| Entry[API 入口]
@@ -130,6 +131,7 @@ flowchart LR
 
 **示例：阶段骨架（人 / Agent / CI 分工细节见卷三）**
 
+<!-- 图 2：2.2 Harness（协作流程 / 任务单流程）：让协作「可签收、可合并」 -->
 ```mermaid
 flowchart LR
   Clarify[需求澄清<br/>人] --> Audit[任务审核<br/>人]
@@ -275,6 +277,7 @@ flowchart LR
 
 > ### **卷一总览：图谱 + 协作流程叠放**
 
+<!-- 图 3：卷一总览：图谱 + 协作流程叠放 -->
 ```mermaid
 flowchart TB
   subgraph map["技术图谱（地图）"]
