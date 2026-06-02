@@ -646,7 +646,7 @@ flowchart TB
 
 - **附册**（术语、Blocking 模板、模型自检等）将 **另行连载**，**不** 占用卷六编号。  
 - **方法论地图**（对外无卷号）计划在五卷定稿后单独发布，便于应聘 / 评审岗 **先读框架**（后续公开）。  
-- 正文与连载稿：[GitHub · ai-coding-closed-loop-articles](https://github.com/Cyning12/ai-coding-closed-loop-articles)（卷一～四已发腾讯云，链见该仓 README）。
+- 正文与连载稿：[GitHub · ai-coding-closed-loop-articles](https://github.com/Cyning12/ai-coding-closed-loop-articles)（卷一～四已发腾讯云；**本篇卷五** GitHub 已定稿，链见该仓 README）。
 
 欢迎 Issue / 讨论与 fork；实践反馈会反哺 **附册与勘误**，卷三正文 **不因** 单条评论而改版。
 
