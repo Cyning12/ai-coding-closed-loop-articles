@@ -1,5 +1,3 @@
-> 系列《AI 编程可闭环协作》· 总目录见 [系列总目录](./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md)
-
 | 卷 | 副标题（连载） | 你得到什么 |
 | --- | --- | --- |
 | — | [从「更会写」到「敢合并」](https://cloud.tencent.com/developer/article/2681553) | 从「更会写」到「敢合并」· 15 分钟导读 |

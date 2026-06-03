@@ -85,9 +85,7 @@ function seriesTable() {
       return `| [${v.label}](${TENCENT[n]}) | ${v.subtitle} | ${v.blurb} |`;
     }),
   ];
-  return `> 系列《AI 编程可闭环协作》· 总目录见 [系列总目录](${OUTLINE})
-
-| 卷 | 副标题（连载） | 你得到什么 |
+  return `| 卷 | 副标题（连载） | 你得到什么 |
 | --- | --- | --- |
 ${rows.join("\n")}
 
