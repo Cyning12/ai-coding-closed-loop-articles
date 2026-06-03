@@ -283,7 +283,7 @@ flowchart LR
 | [卷五](https://cloud.tencent.com/developer/article/2681115)  | 存量怎么落地        | 案例机制、FAQ、阶段 0～3、诚实边界 |
 
 
-系列版本与发表链接见 [OUTLINE](./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md)。
+系列版本与发表链接见 [OUTLINE](../ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md)。
 
 ---
 

@@ -112,7 +112,7 @@ const releaseMeta = `# 从「更会写」到「敢合并」：AI 编程可闭环
 
 > **过程轨、结构轨与 Epic 验收如何叠放**  
 > 系列《AI 编程可闭环协作》· **方法论地图**  
-> 系列总目录见 [ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md](./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md)
+> 系列总目录见 [OUTLINE](../ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md)
 
 ## 目录
 
@@ -143,6 +143,7 @@ const license = `
 // 与仓内定稿文件名一致；若已手改定稿，勿运行以免覆盖
 const releasePath = join(
   repoRoot,
+  "release",
   "从「更会写」到「敢合并」：AI 编程可闭环协作方法论.md"
 );
 writeFileSync(releasePath, releaseMeta + body + license, "utf8");

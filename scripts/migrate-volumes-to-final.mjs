@@ -3,13 +3,14 @@
  * 卷一～五：单文件最终稿迁移（不改方法论地图）
  * - 文首：系列五卷+方法论表（无元信息表、无 H1）
  * - 卷间链：腾讯云
- * - 输出：AI 编程可闭环协作 · 卷X：….md
+ * - 输出：release/AI 编程可闭环协作 · 卷X：….md
  */
 import { readFileSync, writeFileSync, unlinkSync, existsSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
+const releaseDir = join(root, "release");
 
 const OUTLINE = "./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md";
 
@@ -172,7 +173,7 @@ for (const vol of VOLUMES) {
     : "";
 
   const out = seriesTable() + tocSection + body;
-  const outPath = join(root, vol.out);
+  const outPath = join(releaseDir, vol.out);
   writeFileSync(outPath, out, "utf8");
   console.log("Wrote", vol.out);
 }

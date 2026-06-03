@@ -1,7 +1,7 @@
 # AI 编程可闭环协作 · 公众稿
 
 > 系列《AI 编程可闭环协作》的 **Markdown 定稿** 与公众平台粘贴版。  
-> **README 版本**：**v2.1.0**（2026-05-29）
+> **README 版本**：**v2.2.0**（2026-06-03）
 
 | 项 | 内容 |
 | --- | --- |
@@ -15,8 +15,8 @@
 
 | 类型 | 模式 | 示例 |
 | --- | --- | --- |
-| **正文（卷 N）** | `AI 编程可闭环协作 · 卷{N}：{副标题}.md` | `AI 编程可闭环协作 · 卷一：怎样才算「做完」——….md` |
-| **方法论**（无卷号） | `从「更会写」到「敢合并」：AI 编程可闭环协作方法论.md` | 单稿 |
+| **正文（卷 N）** | `release/AI 编程可闭环协作 · 卷{N}：{副标题}.md` | 发版目录 |
+| **方法论**（无卷号） | `release/从「更会写」到「敢合并」：….md` | 单稿 |
 | **系列目录** | `ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v{X.Y.Z}_zh.md` | `…_v1.0.0_zh.md` |
 | **粘贴版** | `assets/PUBLISH_卷{N}_公众平台粘贴版_zh.md` | 与对应卷正文同步 |
 
@@ -26,15 +26,17 @@
 
 ## 阅读入口
 
+> **对外发版正文** 在 [`release/`](./release/README.md)；下表链至该目录。
+
 | 篇别 | 文件 | 内容基线 | 腾讯云 |
 | --- | --- | --- | --- |
 | **总目录** | [`ARTICLE_*_OUTLINE_v1.0.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md) | v1.0.0 | — |
-| **方法论**（导读 · 无卷号） | [`从「更会写」到「敢合并」：….md`](<./从「更会写」到「敢合并」：AI 编程可闭环协作方法论.md>) | 定稿 | [2681553](https://cloud.tencent.com/developer/article/2681553) |
-| **卷一** | [`AI 编程可闭环协作 · 卷一：…`](<./AI 编程可闭环协作 · 卷一：怎样才算「做完」——给 Agent 结构，给团队过程.md>) | v1.0.1 | [2675471](https://cloud.tencent.com/developer/article/2675471) |
-| **卷二** | [`AI 编程可闭环协作 · 卷二：…`](<./AI 编程可闭环协作 · 卷二：技术图谱——让 Agent 先看地图再动手.md>) | v1.0.0 | [2676250](https://cloud.tencent.com/developer/article/2676250) |
-| **卷三** | [`AI 编程可闭环协作 · 卷三：…`](<./AI 编程可闭环协作 · 卷三：Harness 与 SDD——让改动可签收、可合并.md>) | v1.4.0 | [2678669](https://cloud.tencent.com/developer/article/2678669) |
-| **卷四** | [`AI 编程可闭环协作 · 卷四：…`](<./AI 编程可闭环协作 · 卷四：闭环交付与经验沉淀——从 SPEC 到跨轮回顾摘要.md>) | v1.1.0 | [2680278](https://cloud.tencent.com/developer/article/2680278) |
-| **卷五** | [`AI 编程可闭环协作 · 卷五：…`](<./AI 编程可闭环协作 · 卷五：存量项目怎么落地——案例、误区与渐进路线.md>) | v1.0.1 | [2681115](https://cloud.tencent.com/developer/article/2681115) |
+| **方法论**（导读 · 无卷号） | [`release/…方法论.md`](<./release/从「更会写」到「敢合并」：AI 编程可闭环协作方法论.md>) | 定稿 | [2681553](https://cloud.tencent.com/developer/article/2681553) |
+| **卷一** | [`release/卷一…`](<./release/AI 编程可闭环协作 · 卷一：怎样才算「做完」——给 Agent 结构，给团队过程.md>) | v1.0.1 | [2675471](https://cloud.tencent.com/developer/article/2675471) |
+| **卷二** | [`release/卷二…`](<./release/AI 编程可闭环协作 · 卷二：技术图谱——让 Agent 先看地图再动手.md>) | v1.0.0 | [2676250](https://cloud.tencent.com/developer/article/2676250) |
+| **卷三** | [`release/卷三…`](<./release/AI 编程可闭环协作 · 卷三：Harness 与 SDD——让改动可签收、可合并.md>) | v1.4.0 | [2678669](https://cloud.tencent.com/developer/article/2678669) |
+| **卷四** | [`release/卷四…`](<./release/AI 编程可闭环协作 · 卷四：闭环交付与经验沉淀——从 SPEC 到跨轮回顾摘要.md>) | v1.1.0 | [2680278](https://cloud.tencent.com/developer/article/2680278) |
+| **卷五** | [`release/卷五…`](<./release/AI 编程可闭环协作 · 卷五：存量项目怎么落地——案例、误区与渐进路线.md>) | v1.0.1 | [2681115](https://cloud.tencent.com/developer/article/2681115) |
 
 ### 粘贴版（`assets/`）
 
@@ -78,3 +80,4 @@
 | v1.1 | 2026-06-02 | 全五卷合并 v1.0.1；方法论地图 release |
 | v2.0 | 2026-06-02 | `ARTICLE`/`PUBLISH` 文件名统一 **volN + semver**；系列 **v1.5.0** |
 | **v2.1** | **2026-05-29** | 卷一～五 **单稿**（`AI 编程可闭环协作 · 卷X：….md`）；系列 **v1.6.0** |
+| **v2.2** | **2026-06-03** | 发版正文迁入 **`release/`** 目录 |

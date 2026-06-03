@@ -116,7 +116,7 @@ const outText =
   main.trimEnd() +
   "\n";
 
-const outPath = join(repoRoot, OUT);
+const outPath = join(repoRoot, "release", OUT);
 writeFileSync(outPath, outText, "utf8");
 console.log("Wrote:", outPath);
 console.log("Tencent vol5:", TENCENT.vol5);
