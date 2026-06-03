@@ -38,7 +38,7 @@ assets/PUBLISH_卷{N}_公众平台粘贴版_v{MAJOR.MINOR.PATCH}_zh.md
 | 篇别 | 文件 | 卷内版 |
 | --- | --- | --- |
 | 总目录 | [`ARTICLE_*_OUTLINE_v1.0.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md) | v1.0.0 |
-| 方法论地图 | [`ARTICLE_*_方法论地图_v1.0.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_方法论地图_v1.0.0_zh.md) | v1.0.0 |
+| 方法论地图 | [`ARTICLE_*_方法论地图_v1.0.1_zh.md`](./ARTICLE_AI_Coding_可闭环协作_方法论地图_v1.0.1_zh.md) | v1.0.1 |
 | 卷一 | [`ARTICLE_*_vol1_v1.0.1_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol1_v1.0.1_zh.md) | v1.0.1 |
 | 卷二 | [`ARTICLE_*_vol2_v1.0.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v1.0.0_zh.md) | v1.0.0 |
 | 卷三 | [`ARTICLE_*_vol3_v1.4.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md) | v1.4.0 |
@@ -56,4 +56,5 @@ assets/PUBLISH_卷{N}_公众平台粘贴版_v{MAJOR.MINOR.PATCH}_zh.md
 | 2026-06-01 | v1.2.x～v1.3.0 | 卷四 |
 | 2026-06-02 | v1.4.0 | 卷五 · 五卷腾讯云齐 |
 | 2026-06-02 | v1.4.0 | 方法论地图 v1.0.0 |
+| 2026-06-02 | v1.5.0 | 方法论地图 **v1.0.1**（私仓 v0.1.4 通读定稿导出） |
 | 2026-06-02 | **v1.5.0** | **文件名统一 volN + semver ≥ v1.0.0**；README v2 |

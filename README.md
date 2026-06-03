@@ -29,7 +29,7 @@
 | 篇别 | 文件 | 卷内版 | 腾讯云 |
 | --- | --- | --- | --- |
 | **总目录** | [`ARTICLE_*_OUTLINE_v1.0.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md) | v1.0.0 | — |
-| **方法论地图**（导读 · 无卷号） | [`ARTICLE_*_方法论地图_v1.0.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_方法论地图_v1.0.0_zh.md) | v1.0.0 | 待发 |
+| **方法论地图**（导读 · 无卷号） | [`ARTICLE_*_方法论地图_v1.0.1_zh.md`](./ARTICLE_AI_Coding_可闭环协作_方法论地图_v1.0.1_zh.md) | v1.0.1 | 待发 |
 | **卷一** | [`ARTICLE_*_vol1_v1.0.1_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol1_v1.0.1_zh.md) | v1.0.1 | [2675471](https://cloud.tencent.com/developer/article/2675471) |
 | **卷二** | [`ARTICLE_*_vol2_v1.0.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v1.0.0_zh.md) | v1.0.0 | [2676250](https://cloud.tencent.com/developer/article/2676250) |
 | **卷三** | [`ARTICLE_*_vol3_v1.4.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md) | v1.4.0 | [2678669](https://cloud.tencent.com/developer/article/2678669) |
@@ -40,7 +40,7 @@
 
 | 篇别 | 文件 |
 | --- | --- |
-| 方法论地图 | [`PUBLISH_方法论地图_公众平台粘贴版_v1.0.0_zh.md`](./assets/PUBLISH_方法论地图_公众平台粘贴版_v1.0.0_zh.md) |
+| 方法论地图 | [`PUBLISH_方法论地图_公众平台粘贴版_v1.0.1_zh.md`](./assets/PUBLISH_方法论地图_公众平台粘贴版_v1.0.1_zh.md) |
 | 卷一～五 | [`PUBLISH_卷一_…_v1.0.1_zh.md`](./assets/PUBLISH_卷一_公众平台粘贴版_v1.0.1_zh.md) 等 |
 | 全五卷合并 | [`PUBLISH_系列全五卷合并_公众平台粘贴版_v1.0.1_zh.md`](./assets/PUBLISH_系列全五卷合并_公众平台粘贴版_v1.0.1_zh.md) |
 
@@ -50,7 +50,7 @@
 
 ## 建议阅读顺序
 
-1. [**方法论地图**](./ARTICLE_AI_Coding_可闭环协作_方法论地图_v1.0.0_zh.md)（约 15 分钟 · 双轨 / SDD / Epic 全局心智）  
+1. [**方法论地图**](./ARTICLE_AI_Coding_可闭环协作_方法论地图_v1.0.1_zh.md)（约 15 分钟 · 双轨 / SDD / Epic 全局心智）  
 2. [系列总目录](./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md)  
 3. [卷一](https://cloud.tencent.com/developer/article/2675471) → [卷二](https://cloud.tencent.com/developer/article/2676250) → … → [卷五](https://cloud.tencent.com/developer/article/2681115)
 

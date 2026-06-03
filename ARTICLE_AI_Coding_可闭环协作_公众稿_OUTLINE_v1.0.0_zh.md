@@ -4,7 +4,7 @@
 | --- | --- |
 | **用途** | 系列文章的**总目录**；正文随版本扩充，本文件只维护**篇章树 + 状态** |
 | **系列版本** | **[v1.4.0](SERIES_VERSION.md)**（卷一～卷五 GitHub release · 2026-06-02） |
-| **当前发布** | **方法论地图** [`v1.0.0`](./ARTICLE_AI_Coding_可闭环协作_方法论地图_v1.0.0_zh.md) · 卷一 [`v1.0.1`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol1_v1.0.1_zh.md) · 卷二 [`v1.0.0`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v1.0.0_zh.md) · 卷三 [`v1.4.0`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md) · 卷四 [`v1.1.0`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.1.0_zh.md) · 卷五 [`v1.0.0`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol5_v1.0.0_zh.md) |
+| **当前发布** | **方法论地图** [`v1.0.1`](./ARTICLE_AI_Coding_可闭环协作_方法论地图_v1.0.1_zh.md) · 卷一 [`v1.0.1`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol1_v1.0.1_zh.md) · 卷二 [`v1.0.0`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v1.0.0_zh.md) · 卷三 [`v1.4.0`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md) · 卷四 [`v1.1.0`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.1.0_zh.md) · 卷五 [`v1.0.0`](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol5_v1.0.0_zh.md) |
 | **续稿** | 以本仓 GitHub Issues / PR 为准 |
 
 ### 腾讯云开发者社区（已发表）
@@ -43,7 +43,7 @@
 ## 方法论地图（独立篇 · 无卷号）
 
 **对外标题**：从「更会写」到「敢合并」：AI 编程可闭环协作方法论（副标题：过程轨、结构轨与 Epic 验收如何叠放）  
-**文件**：[`ARTICLE_AI_Coding_可闭环协作_方法论地图_v1.0.0_zh.md`](./ARTICLE_AI_Coding_可闭环协作_方法论地图_v1.0.0_zh.md) · **v1.0.0** · 粘贴版 [`assets/PUBLISH_方法论地图_公众平台粘贴版_v1.0.0_zh.md`](./assets/PUBLISH_方法论地图_公众平台粘贴版_v1.0.0_zh.md)  
+**文件**：[`ARTICLE_AI_Coding_可闭环协作_方法论地图_v1.0.1_zh.md`](./ARTICLE_AI_Coding_可闭环协作_方法论地图_v1.0.1_zh.md) · **v1.0.1** · 粘贴版 [`assets/PUBLISH_方法论地图_公众平台粘贴版_v1.0.1_zh.md`](./assets/PUBLISH_方法论地图_公众平台粘贴版_v1.0.1_zh.md)  
 **定位**：五卷 **导读 / GitHub 置顶**；厘清 **SDD / ICV / Harness** 归属；**不替代** 卷一～五操作细节。  
 **建议**：新读者 **先读地图再进卷一**；已读五卷者可作 15 分钟复盘。
 

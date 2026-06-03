@@ -168,6 +168,28 @@
         "file": "assets/PUBLISH_卷五_公众平台粘贴版_v1.0.0_zh.md",
         "index": 2
       }
+    },
+    {
+      "id": "SDD-ICV-双轨-Harness",
+      "width": 1200,
+      "sections": [
+        "方法论地图 §3"
+      ],
+      "exportFrom": {
+        "file": "assets/PUBLISH_方法论地图_公众平台粘贴版_v1.0.2_zh.md",
+        "index": 0
+      }
+    },
+    {
+      "id": "Epic简化交付链",
+      "width": 2000,
+      "sections": [
+        "方法论地图 §4"
+      ],
+      "exportFrom": {
+        "file": "assets/PUBLISH_方法论地图_公众平台粘贴版_v1.0.2_zh.md",
+        "index": 1
+      }
     }
   ]
 }

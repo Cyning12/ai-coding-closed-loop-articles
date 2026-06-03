@@ -22,8 +22,11 @@ const TENCENT = {
 };
 
 const src = readFileSync(srcPath, "utf8");
-const cut = src.indexOf("\n---\n\n## 修订记录");
-let body = cut >= 0 ? src.slice(0, cut) : src;
+let body = src;
+for (const marker of ["\n---\n\n## 待确认清单", "\n---\n\n## 修订记录"]) {
+  const i = body.indexOf(marker);
+  if (i >= 0) body = body.slice(0, i);
+}
 
 // 去掉文首元信息表（第一个 --- 之前保留标题与系列说明）
 const firstHr = body.indexOf("\n---\n");
@@ -33,9 +36,22 @@ const rest = body.slice(firstHr + 5);
 body = rest.trimStart();
 
 const linkReplacements = [
+  [/\]\(\.\.\/\.\.\/ai-coding-closed-loop-articles\//g, "](./"],
   [
-    /\]\(\.\.\/\.\.\/ai-coding-closed-loop-articles\//g,
-    "](./",
+    /ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1_zh\.md/g,
+    "ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md",
+  ],
+  [
+    /ARTICLE_AI_Coding_可闭环协作_公众稿_v0\.1_zh\.md/g,
+    "ARTICLE_AI_Coding_可闭环协作_公众稿_vol1_v1.0.1_zh.md",
+  ],
+  [
+    /ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v0\.8\.2_zh\.md/g,
+    "ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v1.0.0_zh.md",
+  ],
+  [
+    /ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1\.0\.0_zh\.md/g,
+    "ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.1.0_zh.md",
   ],
   [
     /本仓库 \*\*任务单 \+ 阶段流 \+ 检查\*\*（卷三）/g,
@@ -57,7 +73,7 @@ const releaseMeta = `# 从「更会写」到「敢合并」：AI 编程可闭环
 | --- | --- |
 | **系列主标题** | AI 编程可闭环协作 |
 | **篇别** | 方法论地图（**无卷号** · 系列导读） |
-| **版本** | **v1.0.0**（2026-06-02） |
+| **版本** | **v1.0.2**（2026-06-02 · 对齐私仓 v0.1.5 · §3/§4 示意图） |
 | **状态** | \`release\` |
 | **日期** | 2026-06-02 |
 | **读者** | Tech Lead / 架构师 · AI Coding / Mentor · 已用 Agent 改代码的一线工程师 |
@@ -94,11 +110,17 @@ const license = `
 
 const releasePath = join(
   repoRoot,
-  "ARTICLE_AI_Coding_可闭环协作_方法论地图_v1.0.0_zh.md"
+  "ARTICLE_AI_Coding_可闭环协作_方法论地图_v1.0.2_zh.md"
+);
+// 同步上一版文件名，避免 README 旧链断裂
+const releasePathLegacy = join(
+  repoRoot,
+  "ARTICLE_AI_Coding_可闭环协作_方法论地图_v1.0.1_zh.md"
 );
 writeFileSync(releasePath, releaseMeta + body + license, "utf8");
+writeFileSync(releasePathLegacy, releaseMeta + body + license, "utf8");
 
-const publishHeader = `> **2026-06-02** · 系列《AI 编程可闭环协作》· **方法论地图**（独立篇，无卷号）· release **v1.0.0**
+const publishHeader = `> **2026-06-02** · 系列《AI 编程可闭环协作》· **方法论地图**（独立篇，无卷号）· release **v1.0.2**
 > **副标题**：过程轨、结构轨与 Epic 验收如何叠放
 > **系列文稿（Markdown）**：[github.com/Cyning12/ai-coding-closed-loop-articles](https://github.com/Cyning12/ai-coding-closed-loop-articles)
 > **阅读顺序**：**本篇（导读）** · [卷一](${TENCENT.vol1}) · [卷二](${TENCENT.vol2}) · [卷三](${TENCENT.vol3}) · [卷四](${TENCENT.vol4}) · [卷五](${TENCENT.vol5})
@@ -155,9 +177,16 @@ pasteBody = pasteBody.replace(
 
 const publishPath = join(
   repoRoot,
-  "assets/PUBLISH_方法论地图_公众平台粘贴版_v1.0.0_zh.md"
+  "assets/PUBLISH_方法论地图_公众平台粘贴版_v1.0.2_zh.md"
+);
+const publishPathLegacy = join(
+  repoRoot,
+  "assets/PUBLISH_方法论地图_公众平台粘贴版_v1.0.1_zh.md"
 );
 writeFileSync(publishPath, publishHeader + pasteBody + license, "utf8");
+writeFileSync(publishPathLegacy, publishHeader + pasteBody + license, "utf8");
 
 console.log("Wrote:", releasePath);
+console.log("Synced:", releasePathLegacy);
 console.log("Wrote:", publishPath);
+console.log("Synced:", publishPathLegacy);
