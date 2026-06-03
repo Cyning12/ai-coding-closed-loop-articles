@@ -11,7 +11,7 @@
         "卷二 §8.0"
       ],
       "exportFrom": {
-        "file": "assets/PUBLISH_卷一_公众平台粘贴版_v1.0.1_zh.md",
+        "file": "assets/PUBLISH_卷一_公众平台粘贴版_zh.md",
         "index": 0
       }
     },
@@ -22,7 +22,7 @@
         "卷一 §2.2"
       ],
       "exportFrom": {
-        "file": "assets/PUBLISH_卷一_公众平台粘贴版_v1.0.1_zh.md",
+        "file": "assets/PUBLISH_卷一_公众平台粘贴版_zh.md",
         "index": 1
       }
     },
@@ -33,7 +33,7 @@
         "卷一 §7"
       ],
       "exportFrom": {
-        "file": "assets/PUBLISH_卷一_公众平台粘贴版_v1.0.1_zh.md",
+        "file": "assets/PUBLISH_卷一_公众平台粘贴版_zh.md",
         "index": 2
       }
     },
@@ -44,7 +44,7 @@
         "卷二 §9.4"
       ],
       "exportFrom": {
-        "file": "assets/PUBLISH_卷二_公众平台粘贴版_v1.0.0_zh.md",
+        "file": "assets/PUBLISH_卷二_公众平台粘贴版_zh.md",
         "index": 1
       }
     },
@@ -55,7 +55,7 @@
         "卷三 §12.8"
       ],
       "exportFrom": {
-        "file": "assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md",
+        "file": "assets/PUBLISH_卷三_公众平台粘贴版_zh.md",
         "index": 0
       }
     },
@@ -66,7 +66,7 @@
         "卷三 §12.9"
       ],
       "exportFrom": {
-        "file": "assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md",
+        "file": "assets/PUBLISH_卷三_公众平台粘贴版_zh.md",
         "index": 1
       }
     },
@@ -77,7 +77,7 @@
         "卷三 §13.2"
       ],
       "exportFrom": {
-        "file": "assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md",
+        "file": "assets/PUBLISH_卷三_公众平台粘贴版_zh.md",
         "index": 2
       }
     },
@@ -88,7 +88,7 @@
         "卷三 §13.7"
       ],
       "exportFrom": {
-        "file": "assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md",
+        "file": "assets/PUBLISH_卷三_公众平台粘贴版_zh.md",
         "index": 3
       }
     },
@@ -99,7 +99,7 @@
         "卷三 §14.7"
       ],
       "exportFrom": {
-        "file": "assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md",
+        "file": "assets/PUBLISH_卷三_公众平台粘贴版_zh.md",
         "index": 4
       }
     },
@@ -110,7 +110,7 @@
         "卷三 §14.8"
       ],
       "exportFrom": {
-        "file": "assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md",
+        "file": "assets/PUBLISH_卷三_公众平台粘贴版_zh.md",
         "index": 5
       }
     },
@@ -121,7 +121,7 @@
         "卷三 §16"
       ],
       "exportFrom": {
-        "file": "assets/PUBLISH_卷三_公众平台粘贴版_v1.4.0_zh.md",
+        "file": "assets/PUBLISH_卷三_公众平台粘贴版_zh.md",
         "index": 6
       }
     },
@@ -132,7 +132,7 @@
         "卷四 §17.3"
       ],
       "exportFrom": {
-        "file": "assets/PUBLISH_卷四_公众平台粘贴版_v1.1.0_zh.md",
+        "file": "assets/PUBLISH_卷四_公众平台粘贴版_zh.md",
         "index": 0
       }
     },
@@ -143,7 +143,7 @@
         "卷五 §22.3"
       ],
       "exportFrom": {
-        "file": "assets/PUBLISH_卷五_公众平台粘贴版_v1.0.0_zh.md",
+        "file": "assets/PUBLISH_卷五_公众平台粘贴版_zh.md",
         "index": 0
       }
     },
@@ -154,7 +154,7 @@
         "卷五 §25.2"
       ],
       "exportFrom": {
-        "file": "assets/PUBLISH_卷五_公众平台粘贴版_v1.0.0_zh.md",
+        "file": "assets/PUBLISH_卷五_公众平台粘贴版_zh.md",
         "index": 1
       }
     },
@@ -165,7 +165,7 @@
         "卷五 §23.1"
       ],
       "exportFrom": {
-        "file": "assets/PUBLISH_卷五_公众平台粘贴版_v1.0.0_zh.md",
+        "file": "assets/PUBLISH_卷五_公众平台粘贴版_zh.md",
         "index": 2
       }
     },
@@ -173,10 +173,10 @@
       "id": "SDD-ICV-双轨-Harness",
       "width": 1200,
       "sections": [
-        "方法论地图 §3"
+        "方法论 §3"
       ],
       "exportFrom": {
-        "file": "assets/PUBLISH_方法论地图_公众平台粘贴版_v1.0.2_zh.md",
+        "file": "从「更会写」到「敢合并」：AI 编程可闭环协作方法论.md",
         "index": 0
       }
     },
@@ -184,10 +184,10 @@
       "id": "Epic简化交付链",
       "width": 2000,
       "sections": [
-        "方法论地图 §4"
+        "方法论 §4"
       ],
       "exportFrom": {
-        "file": "assets/PUBLISH_方法论地图_公众平台粘贴版_v1.0.2_zh.md",
+        "file": "从「更会写」到「敢合并」：AI 编程可闭环协作方法论.md",
         "index": 1
       }
     }

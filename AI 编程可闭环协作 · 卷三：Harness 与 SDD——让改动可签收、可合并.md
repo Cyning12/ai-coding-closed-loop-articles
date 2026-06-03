@@ -1,9 +1,15 @@
-# AI 编程可闭环协作 · 卷三：Harness 与 SDD——让改动可签收、可合并
+> 系列《AI 编程可闭环协作》· 总目录见 [系列总目录](./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md)
 
-> **2026-05-30** · release v1.4.0 · 系列 [ai-coding-closed-loop-articles](https://github.com/Cyning12/ai-coding-closed-loop-articles)
+| 卷 | 副标题（连载） | 你得到什么 |
+| --- | --- | --- |
+| — | [从「更会写」到「敢合并」](https://cloud.tencent.com/developer/article/2681553) | 从「更会写」到「敢合并」· 15 分钟导读 |
+| [卷一](https://cloud.tencent.com/developer/article/2675471) | 怎样才算「做完」 | 动机、双轨总览、最小起步 |
+| [卷二](https://cloud.tencent.com/developer/article/2676250) | 技术图谱 | 子图、读法对照、图谱 CI |
+| [卷三](https://cloud.tencent.com/developer/article/2678669) | Harness 与 SDD | 实践 SDD 的 Harness 协作流程（任务单、签收、阶段流） |
+| [卷四](https://cloud.tencent.com/developer/article/2680278) | 闭环交付与经验沉淀 | 专题流水线、跨轮回顾摘要 |
+| [卷五](https://cloud.tencent.com/developer/article/2681115) | 存量怎么落地 | 案例机制、FAQ、阶段 0～3、诚实边界 |
 
 ## 目录
-
 
 | 节              | 标题                                 |
 | -------------- | ---------------------------------- |
@@ -14,7 +20,6 @@
 | **14**         | 半自动协作                              |
 | **15**         | 存量 / 无 CI 降级                       |
 | **16**         | 结语                                 |
-
 
 ---
 
@@ -68,7 +73,7 @@
 
 **冷层只管结构**，不管「上次为何定这个阈值」——那是 **温层** 里回顾摘要的事（§13.7、卷四）。二者别混：有地图没签收，仍不敢合并。
 
-> **与卷五的关系**：冷/温/热的 **完整定义** 与「**不是** 架构三层」纠偏，见 **[卷五 §23.1](ARTICLE_AI_Coding_可闭环协作_公众稿_vol5_v1.0.0_zh.md)**（**以卷五为准**；本节仅为本卷协作记忆分层简称，**不改**卷三已发单卷正文结构）。
+> **与卷五的关系**：冷/温/热的 **完整定义** 与「**不是** 架构三层」纠偏，见 **[卷五 §23.1](https://cloud.tencent.com/developer/article/2681115)**（**以卷五为准**；本节仅为本卷协作记忆分层简称，**不改**卷三已发单卷正文结构）。
 
 ### 11.3 与卷一的关系
 

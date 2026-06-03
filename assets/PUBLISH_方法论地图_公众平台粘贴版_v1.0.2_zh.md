@@ -35,7 +35,7 @@ AI 写代码的交付质量，常见瓶颈 **不在模型够不够强**，而在
 
 过程轨回答「本趟敢不敢合、谁负责」。一轮有边界的交付（下文称 **Epic**）至少具备 **意图、成果、验收** 三要素；缺验收就不算收尾。
 
-合完之后，可把教训 **可选** 蒸馏成经验卡片、团队 Skill 或 **跨轮回顾摘要**——它们像路口上的警示牌，**不替代** 地图与关卡。操作实例、对照实验与存量案例在连载 **卷一～五**；本文只给 **可迁移的原则地图**。
+合完之后，可把教训 **可选** 蒸馏成经验卡片、团队 Skill 或 **跨轮回顾摘要**——它们像路口上的警示牌，**不替代** 地图与关卡。操作实例、对照实验与存量案例在连载 **[卷一](https://cloud.tencent.com/developer/article/2675471)～[卷五](https://cloud.tencent.com/developer/article/2681115)**；本文只给 **可迁移的原则地图**。
 
 ---
 
@@ -94,9 +94,9 @@ AI 写代码的交付质量，常见瓶颈 **不在模型够不够强**，而在
 
 ## 3. SDD 三支柱：Inform · Constrain · Verify
 
-**规格驱动开发（Spec-Driven Development，SDD）** 强调 **先规格、后实现**：用可执行的说明（Spec / 任务单）明确行为边界，再改代码，并以检查证明对齐。卷一的 **意图 · 成果 · 验收** 与 SDD 同向；卷三标题里的 **「Harness 与 SDD」** 指：**SDD 是上层方法论**，**Harness**（协作流程、阶段流、合并前检查）是 **把 SDD 落到 AI 协作里的一种工程化路径**——**不是** 三支柱的定义来源。
+**规格驱动开发（Spec-Driven Development，SDD）** 强调 **先规格、后实现**：用可执行的说明（Spec / 任务单）明确行为边界，再改代码，并以检查证明对齐。[卷一](https://cloud.tencent.com/developer/article/2675471)的 **意图 · 成果 · 验收** 与 SDD 同向；[卷三](https://cloud.tencent.com/developer/article/2678669)标题里的 **「Harness 与 SDD」** 指：**SDD 是上层方法论**，**Harness**（协作流程、阶段流、合并前检查）是 **把 SDD 落到 AI 协作里的一种工程化路径**——**不是** 三支柱的定义来源。
 
-**Inform（告知）· Constrain（约束）· Verify（验证）** 是 SDD 语境下组织协作的 **三支柱**（卷一写作「告知 · 约束 · 验证」）。它们回答：开工前 **告知** 够不够、执行中 **约束** 能否核对、合并前 **验证** 能否重复。本系列 **不发明** 第四支柱；**双轨**（§2）只是把 SDD 三支柱 **落实** 到两类落点：
+**Inform（告知）· Constrain（约束）· Verify（验证）** 是 SDD 语境下组织协作的 **三支柱**（[卷一](https://cloud.tencent.com/developer/article/2675471)写作「告知 · 约束 · 验证」）。它们回答：开工前 **告知** 够不够、执行中 **约束** 能否核对、合并前 **验证** 能否重复。本系列 **不发明** 第四支柱；**双轨**（§2）只是把 SDD 三支柱 **落实** 到两类落点：
 
 ```text
 SDD（规格驱动 · 上层方法论）
@@ -137,7 +137,7 @@ flowchart TB
 | **起源** | 传统软件工程：用契约与规格管理复杂性 | 近年围绕 LLM 的 **外部工程化** 讨论（如 Mitchell Hashimoto 提出概念、OpenAI Codex 团队实践等业界叙事） |
 | **核心** | 先写清 Spec，再实现，保证实现与规格对齐 | 围绕 LLM 建 **外部工程系统**，引导、约束、验证 AI，把不稳定产出变成可合并交付 |
 | **典型口号** | 先想后做，规格即契约 | 模型能力趋同时，**工程系统（Harness）** 决定能否稳定交付 |
-| **与本连载** | **Epic 三要素、任务单、验收** 的 **方法论父层**；**ICV 三支柱归属此处** | 卷三 **Harness 协作流程**、CI、书面签收等 **实践层之一** |
+| **与本连载** | **Epic 三要素、任务单、验收** 的 **方法论父层**；**ICV 三支柱归属此处** | [卷三](https://cloud.tencent.com/developer/article/2678669) **Harness 协作流程**、CI、书面签收等 **实践层之一** |
 | **关系** | 定义「要交付什么、如何验收」 | **实践 SDD 的工具之一**；可与 SDD、敏捷等 **并行叠加**，非替代 SDD |
 
 > Harness Engineering「典型口号」一句为 **业界讨论**，非本系列独创。
@@ -150,7 +150,7 @@ flowchart TB
 
 > **类比（秒懂）**：**SDD** ≈ **合同 + 验收标准**；**Harness** ≈ 工地 **闸机、巡检、签字**——前者定交付与怎么验，后者把纪律落到协作现场（见图 1）。
 
-> 「Harness」兼指业界 **Harness Engineering** 与本连载 **任务单 + 阶段流 + 检查**（卷三）。**图谱轨** 服务 SDD 的 Inform / Constrain（读哪里、契约一致）。
+> 「Harness」兼指业界 **Harness Engineering** 与本连载 **任务单 + 阶段流 + 检查**（[卷三](https://cloud.tencent.com/developer/article/2678669)）。**图谱轨** 服务 SDD 的 Inform / Constrain（读哪里、契约一致）。
 
 
 **Verify 加厚（评测向）**：Mentor 或评测团队关心的是 **验收证据**——验收项能否被测试或检查 **证伪**；协作过程是否留下 **可复盘轨迹**（谁、何时、基于什么材料签收）。这与「多堆对话日志当训练数据」不是一回事：日志若没有对齐 **意图 / 成果 / 验收**，很难还原「当时什么叫做完」。
@@ -185,9 +185,9 @@ flowchart TB
 
 **任务单** 是 Epic 内更小工单的常见载体；**验收不可省**。任务单 + 签收在本系列里也称 **本轮交付依据**（即本轮 **唯一可信的「做完」依据**——以书面记录与检查为准，而非聊天结论）。
 
-**专题收尾**（合并后的归档、可选摘要编译）属于 **合之后** 的纪律，见连载卷四；**合并本身不自动生成** 跨轮回顾摘要。
+**专题收尾**（合并后的归档、可选摘要编译）属于 **合之后** 的纪律，见连载[卷四](https://cloud.tencent.com/developer/article/2680278)；**合并本身不自动生成** 跨轮回顾摘要。
 
-**图 2 · 一轮 Epic 的简化交付链**（端到端心智模型；**不是** 卷三完整阶段流或卷二主图+子图细节）：
+**图 2 · 一轮 Epic 的简化交付链**（端到端心智模型；**不是** [卷三](https://cloud.tencent.com/developer/article/2678669)完整阶段流或[卷二](https://cloud.tencent.com/developer/article/2676250)主图+子图细节）：
 
 ```mermaid
 flowchart LR
@@ -232,7 +232,7 @@ flowchart LR
 - **结构轨**：改架构仍要 **改图谱**（PR 顺手维护），不能只加 Skill；
 - **过程轨**：**合并前检查 + 书面签收** 不能省——在平台上点一下 Approve **不等于** 本系列意义上的交付。
 
-**跨轮回顾摘要**（从已收尾材料 **编译** 出的 Epic 级决策页）帮助半年后少翻冗长留痕；**不是** 产品 Wiki 全文，**不能** 代替图谱做影响分析。与 **LLM Wiki**、PRD 的分工，**连载卷四** 有表；此处只记一句：**摘要/Wiki 层不替代「敢不敢合」的闸。**
+**跨轮回顾摘要**（从已收尾材料 **编译** 出的 Epic 级决策页）帮助半年后少翻冗长留痕；**不是** 产品 Wiki 全文，**不能** 代替图谱做影响分析。与 **LLM Wiki**、PRD 的分工，**连载[卷四](https://cloud.tencent.com/developer/article/2680278)** 有表；此处只记一句：**摘要/Wiki 层不替代「敢不敢合」的闸。**
 
 **冷 / 温 / 热** 在连载里指 **协作记忆分层**（结构地图 / 协作轨迹 / 远期运行时记忆），**不是** 软件架构里的三层。**不是** 架构冷层、温层、热层——若团队内部另有同名术语，请在术语表写清映射，避免与系列混用（详见 [卷五 §23.1](https://cloud.tencent.com/developer/article/2681115)；总论不展开）。
 
@@ -254,10 +254,10 @@ flowchart LR
 
 ## 7. 与 TDD、Code Review、DevOps 的关系
 
-- **TDD / 单测**：仍负责「行为对不对」；本方法论负责「这次改动 **有没有测试策略**、失败路径写没写、敢不敢合并」。契约检查绿了，**仍可能** 行为逻辑错——门牌号对了，屋里逻辑还要靠测试（连载卷五 FAQ 有对照）。
+- **TDD / 单测**：仍负责「行为对不对」；本方法论负责「这次改动 **有没有测试策略**、失败路径写没写、敢不敢合并」。契约检查绿了，**仍可能** 行为逻辑错——门牌号对了，屋里逻辑还要靠测试（连载[卷五](https://cloud.tencent.com/developer/article/2681115) FAQ 有对照）。
 - **Code Review**：过程轨（Verify + Inform）把「聊过」变成 **可检索的审查记录**；图谱让 Reviewer 更快看 **影响面**。
 - **CI/CD**：Verify 的硬背压；Agent 自检 **不能** 代替流水线。
-- **Jira / 飞书工单**：产品沟通层；任务单是 **工程交付依据**——宜 **叠加**，不宜再搞第三套互相打架的流程（存量降级见卷三）。
+- **Jira / 飞书工单**：产品沟通层；任务单是 **工程交付依据**——宜 **叠加**，不宜再搞第三套互相打架的流程（存量降级见[卷三](https://cloud.tencent.com/developer/article/2678669)）。
 
 **叠加，不替换**：你没有 TDD 或 CI，应先补 **「验得动」**（哪怕先是手动门禁写进任务单），再谈 Agent 规模化。
 
@@ -265,29 +265,29 @@ flowchart LR
 
 ## 8. 阅读地图：五卷各答什么
 
-读完本文，可按处境选连载（均 **无卷号依赖** 于本篇，但卷二起建议顺序阅读）：
+读完本文，可按处境选连载（均 **无卷号依赖** 于本篇，但[卷二](https://cloud.tencent.com/developer/article/2676250)起建议顺序阅读）：
 
 
 | 读者处境                     | 建议路径                                                                                                                                                                                                                  | 本篇已够可停                       |
 | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
 | **Mentor / 评测 / 教模型写代码** | **本文全文** → [卷三 Harness](https://cloud.tencent.com/developer/article/2678669)（Verify）→ [卷四 专题收尾与摘要](https://cloud.tencent.com/developer/article/2680278) | 需要题集与轨迹细节时再下钻；本文 §4.1 可作出题模板 |
-| **新项目 / 个人实验**           | 本文 → [卷一 §6 最小起步](https://cloud.tencent.com/developer/article/2675471) → [卷二 图谱](https://cloud.tencent.com/developer/article/2676250)                          | 只要原则时可停；动手优先卷一模板             |
-| **存量 / 老项目**             | 本文 → [卷五 渐进路线](https://cloud.tencent.com/developer/article/2681115) · 卷三无 CI 降级                                                                                                        | 勿先卷二物化细节；先「验得动」再铺图           |
+| **新项目 / 个人实验**           | 本文 → [卷一 §6 最小起步](https://cloud.tencent.com/developer/article/2675471) → [卷二 图谱](https://cloud.tencent.com/developer/article/2676250)                          | 只要原则时可停；动手优先[卷一](https://cloud.tencent.com/developer/article/2675471)模板             |
+| **存量 / 老项目**             | 本文 → [卷五 渐进路线](https://cloud.tencent.com/developer/article/2681115) · [卷三](https://cloud.tencent.com/developer/article/2678669)无 CI 降级                                                                                                        | 勿先[卷二](https://cloud.tencent.com/developer/article/2676250)物化细节；先「验得动」再铺图           |
 | **只要 Agent 读架构**         | 本文 §2～§3 → [卷二 技术图谱](https://cloud.tencent.com/developer/article/2676250)                                                                                                                                   | 可跳过 Harness 细则；仍建议知 §4 验收概念  |
-| **只要敢合并**                | 本文 §3～§4 → 卷三 → 卷四 §17 摘要                                                                                                                                                                                             | 可跳过图谱实验数字；契约红了见卷四失败分支        |
+| **只要敢合并**                | 本文 §3～§4 → [卷三](https://cloud.tencent.com/developer/article/2678669) → [卷四](https://cloud.tencent.com/developer/article/2680278) §17 摘要                                                                                                                                                                                             | 可跳过图谱实验数字；契约红了见[卷四](https://cloud.tencent.com/developer/article/2680278)失败分支        |
 
 
 
 | 卷   | 副标题（连载）       | 你得到什么                |
 | --- | ------------- | -------------------- |
-| 卷一  | 怎样才算「做完」      | 动机、双轨总览、最小起步         |
-| 卷二  | [技术图谱](https://cloud.tencent.com/developer/article/2676250) | 子图、读法对照、图谱 CI        |
-| 卷三  | Harness 与 SDD | **实践 SDD** 的 Harness 协作流程（任务单、签收、阶段流） |
-| 卷四  | 闭环交付与经验沉淀     | 专题流水线、跨轮回顾摘要         |
-| 卷五  | 存量怎么落地        | 案例机制、FAQ、阶段 0～3、诚实边界 |
+| [卷一](https://cloud.tencent.com/developer/article/2675471)  | 怎样才算「做完」      | 动机、双轨总览、最小起步         |
+| [卷二](https://cloud.tencent.com/developer/article/2676250)  | 技术图谱 | 子图、读法对照、图谱 CI        |
+| [卷三](https://cloud.tencent.com/developer/article/2678669)  | Harness 与 SDD | **实践 SDD** 的 Harness 协作流程（任务单、签收、阶段流） |
+| [卷四](https://cloud.tencent.com/developer/article/2680278)  | 闭环交付与经验沉淀     | 专题流水线、跨轮回顾摘要         |
+| [卷五](https://cloud.tencent.com/developer/article/2681115)  | 存量怎么落地        | 案例机制、FAQ、阶段 0～3、诚实边界 |
 
 
-系列版本与发表链接见 [OUTLINE](https://github.com/Cyning12/ai-coding-closed-loop-articles/blob/main/ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md)。
+系列版本与发表链接见 [OUTLINE](./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md)。
 
 ---
 
@@ -299,7 +299,7 @@ flowchart LR
 | 有图谱就不会幻觉 / 零 bug | **降低** 漏改与漂范围；仍要单测、失败路径、签收                                                                           |
 | 全自动无人值守交付        | **有闸的协作**；关键节点人审                                                                                     |
 | 任意仓库、任意语言零配置     | 须 **自建题集** 与试点链；存量 **渐进**（阶段 0～3）                                                                    |
-| 对照实验降幅 = 全行业普适   | 须在 **声明题集 + 单仓 + 场景** 内解读；连载卷二/卷四有边界表述                                                               |
+| 对照实验降幅 = 全行业普适   | 须在 **声明题集 + 单仓 + 场景** 内解读；连载[卷二](https://cloud.tencent.com/developer/article/2676250)/[卷四](https://cloud.tencent.com/developer/article/2680278)有边界表述                                                               |
 | 维护图谱可忽略          | 作者在 **小样本**（约数名后端、每周数个任务、少量试点链）中，将图谱相关维护控制在开发时间 **约 10%～15% 的目标区间**——**非行业标准、非 KPI、非承诺**；过高应减项或加强自动化 |
 | 增量图谱 CI 已成熟可照搬   | 现阶段强调 **全量** export/入口与叙述层检查；**增量** 图谱 CI **未** 作公众稿承诺                                               |
 
@@ -312,10 +312,11 @@ flowchart LR
 
 若你只想用 15 分钟建立全局心智：读完本文即可知道 **SDD 与 ICV 三支柱、Harness 在其中的位置、双轨叠放、Epic 三要素** 与 **五卷分工**。
 
-若要动手：**新读者从 [卷一](https://cloud.tencent.com/developer/article/2675471) 最小起步**；要地图读 **[卷二](https://cloud.tencent.com/developer/article/2676250)**；要敢合并读 **卷三**；要合后沉淀读 **卷四**；老项目直接看 **卷五 阶段 0**，但仍建议 **浏览** 卷一～三要点。
+若要动手：**新读者从 [卷一](https://cloud.tencent.com/developer/article/2675471) 最小起步**；要地图读 **[卷二](https://cloud.tencent.com/developer/article/2676250)**；要敢合并读 **[卷三](https://cloud.tencent.com/developer/article/2678669)**；要合后沉淀读 **[卷四](https://cloud.tencent.com/developer/article/2680278)**；老项目直接看 **[卷五](https://cloud.tencent.com/developer/article/2681115) 阶段 0**，但仍建议 **浏览** [卷一](https://cloud.tencent.com/developer/article/2675471)～[卷三](https://cloud.tencent.com/developer/article/2678669)要点。
 
 **SDD 定规格与验收，结构进图谱，过程经 Harness 等落实 ICV，习惯与决策合后再沉淀。** 先认路，再干活，过关放行，再可选挂牌。
 
 ---
 
 *许可：CC BY 4.0 · 署名可转载与改编 · 系列文稿：[ai-coding-closed-loop-articles](https://github.com/Cyning12/ai-coding-closed-loop-articles)*
+

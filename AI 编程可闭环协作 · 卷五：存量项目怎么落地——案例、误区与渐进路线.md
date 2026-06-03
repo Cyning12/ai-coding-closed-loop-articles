@@ -1,14 +1,15 @@
-# AI 编程可闭环协作 · 卷五：存量项目怎么落地——案例、误区与渐进路线
+> 系列《AI 编程可闭环协作》· 总目录见 [系列总目录](./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md)
 
-> **版本**：release **v1.0.1**（2026-06-02 · 业界说法对齐 §23.13）  
-> **2026-06-02** · 系列 [ai-coding-closed-loop-articles](https://github.com/Cyning12/ai-coding-closed-loop-articles) · 腾讯云 [已发表](https://cloud.tencent.com/developer/article/2681115)  
-> [系列总目录](./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md) · 上一卷：[卷四：闭环交付与经验沉淀](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.1.0_zh.md)（[2680278](https://cloud.tencent.com/developer/article/2680278)）  
-> 建议先读 [卷一](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol1_v1.0.1_zh.md) · [卷二 技术图谱](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v1.0.0_zh.md) · [卷三 Harness](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol3_v1.4.0_zh.md)
-
----
+| 卷 | 副标题（连载） | 你得到什么 |
+| --- | --- | --- |
+| — | [从「更会写」到「敢合并」](https://cloud.tencent.com/developer/article/2681553) | 从「更会写」到「敢合并」· 15 分钟导读 |
+| [卷一](https://cloud.tencent.com/developer/article/2675471) | 怎样才算「做完」 | 动机、双轨总览、最小起步 |
+| [卷二](https://cloud.tencent.com/developer/article/2676250) | 技术图谱 | 子图、读法对照、图谱 CI |
+| [卷三](https://cloud.tencent.com/developer/article/2678669) | Harness 与 SDD | 实践 SDD 的 Harness 协作流程（任务单、签收、阶段流） |
+| [卷四](https://cloud.tencent.com/developer/article/2680278) | 闭环交付与经验沉淀 | 专题流水线、跨轮回顾摘要 |
+| [卷五](https://cloud.tencent.com/developer/article/2681115) | 存量怎么落地 | 案例机制、FAQ、阶段 0～3、诚实边界 |
 
 ## 目录
-
 
 | 节      | 标题                  |
 | ------ | ------------------- |
@@ -19,7 +20,6 @@
 | **24** | 诚实边界：不能外推成什么        |
 | **25** | 存量项目渐进落地            |
 | **26** | 结语（系列收束）            |
-
 
 ---
 
@@ -684,7 +684,7 @@ flowchart TB
 ### 系列之后
 
 - **附册**（术语、Blocking 模板、模型自检等）将 **另行连载**，**不** 占用卷六编号。  
-- **方法论地图**（对外无卷号）已发布 **v1.0.1**，建议应聘 / 评审岗 **先读框架** 再进卷一～五：[GitHub · 方法论地图](https://github.com/Cyning12/ai-coding-closed-loop-articles/blob/main/ARTICLE_AI_Coding_可闭环协作_方法论地图_v1.0.1_zh.md)。  
+- **方法论**（对外无卷号）：建议应聘 / 评审岗 **先读框架** 再进卷一～五：[从「更会写」到「敢合并」](https://cloud.tencent.com/developer/article/2681553)。  
 - 正文与连载稿：[GitHub · ai-coding-closed-loop-articles](https://github.com/Cyning12/ai-coding-closed-loop-articles)（卷一～五链见该仓 README；腾讯云已发见各卷文首）。
 
 欢迎 Issue / 讨论与 fork；实践反馈会反哺 **附册与勘误**，卷三正文 **不因** 单条评论而改版。

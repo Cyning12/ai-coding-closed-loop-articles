@@ -1,7 +1,13 @@
-# AI 编程可闭环协作 · 卷四：闭环交付与经验沉淀——从 SPEC 到跨轮回顾摘要
+> 系列《AI 编程可闭环协作》· 总目录见 [系列总目录](./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md)
 
-> **2026-06-02** · release **v1.1.0**（2026-06-02 用语对齐修订）· 腾讯云 [已发表](https://cloud.tencent.com/developer/article/2680278) · 系列 [ai-coding-closed-loop-articles](https://github.com/Cyning12/ai-coding-closed-loop-articles)
-
+| 卷 | 副标题（连载） | 你得到什么 |
+| --- | --- | --- |
+| — | [从「更会写」到「敢合并」](https://cloud.tencent.com/developer/article/2681553) | 从「更会写」到「敢合并」· 15 分钟导读 |
+| [卷一](https://cloud.tencent.com/developer/article/2675471) | 怎样才算「做完」 | 动机、双轨总览、最小起步 |
+| [卷二](https://cloud.tencent.com/developer/article/2676250) | 技术图谱 | 子图、读法对照、图谱 CI |
+| [卷三](https://cloud.tencent.com/developer/article/2678669) | Harness 与 SDD | 实践 SDD 的 Harness 协作流程（任务单、签收、阶段流） |
+| [卷四](https://cloud.tencent.com/developer/article/2680278) | 闭环交付与经验沉淀 | 专题流水线、跨轮回顾摘要 |
+| [卷五](https://cloud.tencent.com/developer/article/2681115) | 存量怎么落地 | 案例机制、FAQ、阶段 0～3、诚实边界 |
 
 ## 目录
 
@@ -349,8 +355,8 @@ flowchart LR
 
 **图谱** 回答改哪里；**Harness** 回答敢不敢合；**跨轮回顾摘要** 回答跨 Epic 怎么回顾——三者 **都不替代** 彼此。
 
-若你读卷三时对 **冷层 / 温层 / 热层** 仍有「是不是架构三层」的疑惑：卷三正文已发表；请以 **[卷五 §23.1](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol5_v1.0.0_zh.md)** 对照表为准（协作记忆分层，不是架构 / 契约 / 实现）。
+若你读卷三时对 **冷层 / 温层 / 热层** 仍有「是不是架构三层」的疑惑：卷三正文已发表；请以 **[卷五 §23.1](https://cloud.tencent.com/developer/article/2681115)** 对照表为准（协作记忆分层，不是架构 / 契约 / 实现）。
 
-**下一卷 · [卷五](./ARTICLE_AI_Coding_可闭环协作_公众稿_vol5_v1.0.0_zh.md)** 面向 **存量项目**：一周量级如何试通一条链、常见误区、渐进路线；附册（术语、模板、延伸阅读）将另行连载；卷五 §26 链出 **Blocking 三行模板** 与 **换模型定性自检** 等规划附件。
+**下一卷 · [卷五](https://cloud.tencent.com/developer/article/2681115)** 面向 **存量项目**：一周量级如何试通一条链、常见误区、渐进路线；附册（术语、模板、延伸阅读）将另行连载；卷五 §26 链出 **Blocking 三行模板** 与 **换模型定性自检** 等规划附件。
 
 新项目：从卷一 §6 起步。老项目：从卷五 **阶段 0**（手动门禁写进任务单）起步。

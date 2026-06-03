@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /**
- * 从 ai_coding_governance 卷五真源导出公众仓 release（v1.0.1）
+ * 从 ai_coding_governance 卷五真源导出公众仓最终稿
+ * 输出：AI 编程可闭环协作 · 卷五：….md（无文内 H1）
  */
 import { readFileSync, writeFileSync } from "fs";
 import { join, dirname } from "path";
@@ -19,8 +20,35 @@ const TENCENT = {
   vol3: "https://cloud.tencent.com/developer/article/2678669",
   vol4: "https://cloud.tencent.com/developer/article/2680278",
   vol5: "https://cloud.tencent.com/developer/article/2681115",
-  map: "https://github.com/Cyning12/ai-coding-closed-loop-articles/blob/main/ARTICLE_AI_Coding_可闭环协作_方法论地图_v1.0.1_zh.md",
 };
+
+const OUTLINE = "./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md";
+const MAP = "https://cloud.tencent.com/developer/article/2681553";
+const OUT =
+  "AI 编程可闭环协作 · 卷五：存量项目怎么落地——案例、误区与渐进路线.md";
+
+function seriesTable() {
+  const rows = [
+    ["一", "怎样才算「做完」", "动机、双轨总览、最小起步"],
+    ["二", "技术图谱", "子图、读法对照、图谱 CI"],
+    ["三", "Harness 与 SDD", "实践 SDD 的 Harness 协作流程（任务单、签收、阶段流）"],
+    ["四", "闭环交付与经验沉淀", "专题流水线、跨轮回顾摘要"],
+    ["五", "存量怎么落地", "案例机制、FAQ、阶段 0～3、诚实边界"],
+  ];
+  return `> 系列《AI 编程可闭环协作》· 总目录见 [系列总目录](${OUTLINE})
+
+| 卷 | 副标题（连载） | 你得到什么 |
+| --- | --- | --- |
+| — | [从「更会写」到「敢合并」](${MAP}) | 15 分钟导读 · 双轨与 Epic |
+${rows
+  .map(
+    ([cn, sub, blur], i) =>
+      `| [卷${cn}](${Object.values(TENCENT)[i]}) | ${sub} | ${blur} |`
+  )
+  .join("\n")}
+
+`;
+}
 
 let body = readFileSync(srcPath, "utf8");
 for (const marker of ["\n---\n\n## 修订记录", "\n---\n\n## 待确认"]) {
@@ -31,23 +59,27 @@ for (const marker of ["\n---\n\n## 修订记录", "\n---\n\n## 待确认"]) {
 const linkReplacements = [
   [
     /ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1_zh\.md/g,
-    "ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md",
+    OUTLINE,
   ],
   [
-    /ARTICLE_AI_Coding_可闭环协作_公众稿_v0\.1_zh\.md/g,
-    "ARTICLE_AI_Coding_可闭环协作_公众稿_vol1_v1.0.1_zh.md",
+    /\]\(\.\/ARTICLE_AI_Coding_可闭环协作_公众稿_vol1[^)]+\)/g,
+    `](${TENCENT.vol1})`,
   ],
   [
-    /ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v0\.8\.2_zh\.md/g,
-    "ARTICLE_AI_Coding_可闭环协作_公众稿_vol2_v1.0.0_zh.md",
+    /\]\(\.\/ARTICLE_AI_Coding_可闭环协作_公众稿_vol2[^)]+\)/g,
+    `](${TENCENT.vol2})`,
   ],
   [
-    /ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1\.0\.0_zh\.md/g,
-    "ARTICLE_AI_Coding_可闭环协作_公众稿_vol4_v1.1.0_zh.md",
+    /\]\(\.\/ARTICLE_AI_Coding_可闭环协作_公众稿_vol3[^)]+\)/g,
+    `](${TENCENT.vol3})`,
+  ],
+  [
+    /\]\(\.\/ARTICLE_AI_Coding_可闭环协作_公众稿_vol4[^)]+\)/g,
+    `](${TENCENT.vol4})`,
   ],
   [
     /\]\(\.\/FAQ_方法论地图与五卷_业界观点对照与争议_v1_zh\.md\)/g,
-    "](https://github.com/Cyning12/ai-coding-closed-loop-articles/blob/main/ARTICLE_AI_Coding_可闭环协作_公众稿_vol5_v1.0.1_zh.md#2313-和业界说法harness--sdd--效能指标怎么对齐)",
+    `](${TENCENT.vol5}#2313-和业界说法harness--sdd--效能指标怎么对齐)`,
   ],
   [
     /更全的对照表与外链见 \*\*对内\*\* \[`FAQ_方法论地图与五卷_业界观点对照与争议_v1_zh\.md`\]\([^)]+\)（\*\*不进\*\* 公众平台粘贴版）。/,
@@ -59,33 +91,34 @@ for (const [re, rep] of linkReplacements) {
   body = body.replace(re, rep);
 }
 
-// 文首元信息：版本 v1.0.1
-body = body.replace(
-  /> \*\*2026-06-02\*\* · 系列 \[ai-coding-closed-loop-articles\]/,
-  "> **2026-06-02** · 系列 [ai-coding-closed-loop-articles]"
-);
-body = body.replace(
-  /(# AI 编程可闭环协作 · 卷五[^\n]+\n\n)(> \*\*2026-06-02\*\*)/,
-  "$1> **版本**：release **v1.0.1**（2026-06-02 · 业界说法对齐 §23.13）  \n$2"
-);
+body = body.replace(/^# [^\n]+\n+/, "");
+body = body.replace(/^>[\s\S]*?\n\n---\s*\n\n/m, "");
 
-const license = body.endsWith("\n")
-  ? ""
-  : "\n";
-const outPath = join(
-  repoRoot,
-  "ARTICLE_AI_Coding_可闭环协作_公众稿_vol5_v1.0.1_zh.md"
-);
-writeFileSync(outPath, body.trimEnd() + "\n", "utf8");
+const dirIdx = body.search(/^## 目录\s*$/m);
+let toc = "";
+let rest = body;
+if (dirIdx >= 0) {
+  const afterDir = body.slice(dirIdx);
+  const m = afterDir.match(/^## 目录[\s\S]*?\n---\s*\n/);
+  if (m) {
+    toc = m[0]
+      .replace(/^## 目录\s*\n/, "")
+      .replace(/\n---\s*\n$/, "")
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+      .trim();
+    rest = body.slice(dirIdx + m[0].length);
+  }
+}
+const firstSec = rest.search(/^## /m);
+const main = firstSec >= 0 ? rest.slice(firstSec) : rest;
 
-// 保留 v1.0.0 文件名同步（README 若仍指向 v1.0.0）
-const legacyPath = join(
-  repoRoot,
-  "ARTICLE_AI_Coding_可闭环协作_公众稿_vol5_v1.0.0_zh.md"
-);
-writeFileSync(legacyPath, body.trimEnd() + "\n", "utf8");
+const outText =
+  seriesTable() +
+  (toc ? `## 目录\n\n${toc}\n\n---\n\n` : "") +
+  main.trimEnd() +
+  "\n";
 
+const outPath = join(repoRoot, OUT);
+writeFileSync(outPath, outText, "utf8");
 console.log("Wrote:", outPath);
-console.log("Synced:", legacyPath);
 console.log("Tencent vol5:", TENCENT.vol5);
-console.log("Methodology map:", TENCENT.map);
