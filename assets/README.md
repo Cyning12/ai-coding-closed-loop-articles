@@ -5,7 +5,8 @@
 | 文件 | 说明 |
 | --- | --- |
 | [`../release/从「更会写」到「敢合并」：….md`](../release/从「更会写」到「敢合并」：AI 编程可闭环协作方法论.md) | **方法论定稿**（GitHub）· 腾讯云 [2681553](https://cloud.tencent.com/developer/article/2681553) |
-| [`PUBLISH_方法论地图_公众平台粘贴版_v1.0.2_zh.md`](./PUBLISH_方法论地图_公众平台粘贴版_v1.0.2_zh.md) | 方法论粘贴版（可选 · `export-methodology-map.mjs`） |
+| [`PUBLISH_方法论地图_公众平台粘贴版_v1.0.2_zh.md`](./PUBLISH_方法论地图_公众平台粘贴版_v1.0.2_zh.md) | 方法论粘贴版 v1.0.2（历史） |
+| [`PUBLISH_方法论地图_公众平台粘贴版_v1.0.3_zh.md`](./PUBLISH_方法论地图_公众平台粘贴版_v1.0.3_zh.md) | **方法论粘贴版 v1.0.3**（ICVO 脚注勘误 · 推荐） |
 | [`PUBLISH_卷一_公众平台粘贴版_zh.md`](./PUBLISH_卷一_公众平台粘贴版_zh.md) | 卷一（内容基线 v1.0.1） |
 | [`PUBLISH_卷二_公众平台粘贴版_zh.md`](./PUBLISH_卷二_公众平台粘贴版_zh.md) | 卷二（v1.0.0） |
 | [`PUBLISH_卷三_公众平台粘贴版_zh.md`](./PUBLISH_卷三_公众平台粘贴版_zh.md) | 卷三（v1.4.0） |
