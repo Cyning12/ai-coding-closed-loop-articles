@@ -13,6 +13,6 @@
 
 **文首**：五卷 + 方法论链接表（卷间链为腾讯云；无系列总目录行）。
 
-**维护**：活文档与粘贴版在仓库根 [`OUTLINE`](../ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md)、[`assets/`](../assets/)；导出脚本默认写入本目录。
+**维护**：活文档与粘贴版在仓库根 [`OUTLINE`](../ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md)、[`assets/`](../assets/)；**续篇**见 [`discipline_package_series/`](../discipline_package_series/README.md)。导出脚本默认写入本目录。
 
 **PDF**：[`pdf/`](./pdf/) · 生成命令 `node scripts/export-release-pdf.mjs`（Chrome headless + marked）。

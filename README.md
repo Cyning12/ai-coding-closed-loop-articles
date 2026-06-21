@@ -19,6 +19,7 @@
 | **方法论**（无卷号） | `release/从「更会写」到「敢合并」：….md` | 单稿 |
 | **系列目录** | `ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v{X.Y.Z}_zh.md` | `…_v1.0.0_zh.md` |
 | **粘贴版** | `assets/PUBLISH_卷{N}_公众平台粘贴版_zh.md` | 与对应卷正文同步 |
+| **续篇** | `discipline_package_series/release/` + `discipline_package_series/assets/` | 纪律包工程续篇 |
 
 卷一～五 **语义版本** 记在 [OUTLINE 修订记录](./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md#修订记录)，不写入文件名。
 
@@ -37,6 +38,7 @@
 | **卷三** | [`release/卷三…`](<./release/AI 编程可闭环协作 · 卷三：Harness 与 SDD——让改动可签收、可合并.md>) | v1.4.0 | [2678669](https://cloud.tencent.com/developer/article/2678669) |
 | **卷四** | [`release/卷四…`](<./release/AI 编程可闭环协作 · 卷四：闭环交付与经验沉淀——从 SPEC 到跨轮回顾摘要.md>) | v1.1.0 | [2680278](https://cloud.tencent.com/developer/article/2680278) |
 | **卷五** | [`release/卷五…`](<./release/AI 编程可闭环协作 · 卷五：存量项目怎么落地——案例、误区与渐进路线.md>) | v1.0.1 | [2681115](https://cloud.tencent.com/developer/article/2681115) |
+| **续篇 · 篇 1** | [`discipline_package_series/release/…篇1….md`](<./discipline_package_series/release/AI 编程可闭环协作 · 纪律包续篇 · 篇1：从 OOP 到本体——用形式语义支撑 AI 协作方法论.md>) | v1.0.0 | _待发_ |
 
 ### 粘贴版（`assets/`）
 
@@ -45,6 +47,7 @@
 | 方法论地图 | [`PUBLISH_方法论地图_公众平台粘贴版_v1.0.2_zh.md`](./assets/PUBLISH_方法论地图_公众平台粘贴版_v1.0.2_zh.md) |
 | 卷一～五 | [`PUBLISH_卷一_公众平台粘贴版_zh.md`](./assets/PUBLISH_卷一_公众平台粘贴版_zh.md) 等 |
 | 全五卷合并 | [`PUBLISH_系列全五卷合并_公众平台粘贴版_v1.0.1_zh.md`](./assets/PUBLISH_系列全五卷合并_公众平台粘贴版_v1.0.1_zh.md) |
+| 续篇篇 1 | [`discipline_package_series/assets/PUBLISH_篇1_…`](./discipline_package_series/assets/PUBLISH_篇1_公众平台粘贴版_v1.0.0_zh.md) |
 
 配图索引与 PNG：`assets/figures/` · [`mermaid-image-map.json`](./mermaid-image-map.json)
 
@@ -55,6 +58,7 @@
 1. [**从「更会写」到「敢合并」：方法论**](https://cloud.tencent.com/developer/article/2681553)（约 15 分钟 · 双轨 / SDD / Epic 全局心智）  
 2. [系列总目录](./ARTICLE_AI_Coding_可闭环协作_公众稿_OUTLINE_v1.0.0_zh.md)  
 3. [卷一](https://cloud.tencent.com/developer/article/2675471) → [卷二](https://cloud.tencent.com/developer/article/2676250) → … → [卷五](https://cloud.tencent.com/developer/article/2681115)
+4. **可选续篇**：[纪律包工程 · 篇 1](./discipline_package_series/README.md)（本体论 × 方法论）
 
 ---
 

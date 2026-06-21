@@ -190,6 +190,28 @@
         "file": "release/从「更会写」到「敢合并」：AI 编程可闭环协作方法论.md",
         "index": 1
       }
+    },
+    {
+      "id": "四支柱落点",
+      "width": 1800,
+      "sections": [
+        "续篇篇1 §8"
+      ],
+      "exportFrom": {
+        "file": "discipline_package_series/assets/PUBLISH_篇1_公众平台粘贴版_v1.0.0_zh.md",
+        "index": 1
+      }
+    },
+    {
+      "id": "方法论本体实现",
+      "width": 1200,
+      "sections": [
+        "续篇篇1 §0"
+      ],
+      "exportFrom": {
+        "file": "discipline_package_series/assets/PUBLISH_篇1_公众平台粘贴版_v1.0.0_zh.md",
+        "index": 0
+      }
     }
   ]
 }
